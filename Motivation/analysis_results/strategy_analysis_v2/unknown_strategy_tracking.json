@@ -1,0 +1,50 @@
+{
+    "Trust Building": {
+        "Total_Count": 3,
+        "Success_Count": 1,
+        "Occurrences": [
+            {
+                "User_ID": "persona_58",
+                "Trajectory_ID": "root_b2_1",
+                "Turn": 4,
+                "Is_Success": false
+            },
+            {
+                "User_ID": "persona_280",
+                "Trajectory_ID": "root_b2_1",
+                "Turn": 4,
+                "Is_Success": false
+            },
+            {
+                "User_ID": "persona_288",
+                "Trajectory_ID": "root_b2_3",
+                "Turn": 4,
+                "Is_Success": true
+            }
+        ]
+    },
+    "Evidence Appeal": {
+        "Total_Count": 1,
+        "Success_Count": 1,
+        "Occurrences": [
+            {
+                "User_ID": "persona_14",
+                "Trajectory_ID": "root_b7_3",
+                "Turn": 9,
+                "Is_Success": true
+            }
+        ]
+    },
+    "Transparency and Trust": {
+        "Total_Count": 1,
+        "Success_Count": 0,
+        "Occurrences": [
+            {
+                "User_ID": "persona_117",
+                "Trajectory_ID": "root_b2_2",
+                "Turn": 4,
+                "Is_Success": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,156 @@
+================================================================================
+Top 10 High Entropy Tokens per Sample (Reasoning Phase)
+================================================================================
+
+[Sample 1] ID: persona_141_Turn6
+Context Preview: **Thought Process** : The Persuader has already established credibility and provided basic donation ...
+------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token               
+------------------------------------------------------------
+1     | 1.2365   | 0.4846 | established         
+2     | 1.1615   | 0.5246 | needs               
+3     | 1.0393   | 0.4433 | seeking             
+4     | 1.0316   | 0.6448 | make                
+5     | 1.0242   | 0.5026 | showing             
+6     | 0.8010   | 0.6433 | difference          
+7     | 0.7668   | 0.6897 | is                  
+8     | 0.7668   | 0.6897 | a                   
+9     | 0.7060   | 0.8031 | a                   
+10    | 0.6931   | 0.5000 | ,                   
+
+
+[Sample 2] ID: persona_58_Turn8
+Context Preview: **Thought Process** : The Persuadee has shown interest in the charity's impact but is seeking more c...
+------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token               
+------------------------------------------------------------
+1     | 1.4856   | 0.3288 | specific            
+2     | 1.4139   | 0.2922 | enhance             
+3     | 1.4028   | 0.2899 | evidence            
+4     | 1.3592   | 0.3952 | validate            
+5     | 1.3229   | 0.2685 | verification        
+6     | 1.2648   | 0.4344 | information         
+7     | 1.2153   | 0.4310 | most                
+8     | 1.0821   | 0.5322 | effective           
+9     | 1.0695   | 0.5737 | examples            
+10    | 1.0607   | 0.4653 | \n\n                
+
+
+[Sample 3] ID: persona_58_Turn2
+Context Preview: **Thought Process**: The conversation has just started with a friendly greeting from the Persuader, ...
+------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token               
+------------------------------------------------------------
+1     | 1.3892   | 0.4154 | strategy            
+2     | 1.2672   | 0.5035 | will                
+3     | 1.2660   | 0.5121 | pressure            
+4     | 1.2625   | 0.4702 | The                 
+5     | 1.2550   | 0.4613 | move                
+6     | 1.2516   | 0.3387 | targeted            
+7     | 1.2339   | 0.4585 | \n\n                
+8     | 1.2334   | 0.5490 | help                
+9     | 1.2090   | 0.3467 | can                 
+10    | 1.0528   | 0.5413 | introduce           
+
+
+[Sample 4] ID: persona_141_Turn12
+Context Preview: **Thought Process** : The Persuadee has expressed hesitation and is still unsure about committing to...
+------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token               
+------------------------------------------------------------
+1     | 1.4410   | 0.4089 | more                
+2     | 1.3976   | 0.3620 | approach            
+3     | 1.3773   | 0.3664 | using               
+4     | 1.3257   | 0.3713 | overcome            
+5     | 1.3141   | 0.5021 | ,                   
+6     | 1.3134   | 0.3498 | focus               
+7     | 1.3105   | 0.5059 | would               
+8     | 1.2416   | 0.5079 | emotional           
+9     | 1.1962   | 0.3985 | multiple            
+10    | 1.1672   | 0.5641 | positive            
+
+
+[Sample 5] ID: persona_58_Turn18
+Context Preview: **Thought Process** : The Persuadee has consistently expressed hesitation and a desire to take more ...
+------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token               
+------------------------------------------------------------
+1     | 1.5317   | 0.2975 | Logical             
+2     | 1.4565   | 0.4256 | a                   
+3     | 1.3863   | 0.3479 | later               
+4     | 1.3711   | 0.4194 | logical             
+5     | 1.3516   | 0.4479 | empowered           
+6     | 1.3341   | 0.2921 | making              
+7     | 1.3226   | 0.3702 | "                   
+8     | 1.2272   | 0.5028 | acknowledge         
+9     | 1.2141   | 0.4516 | such                
+10    | 1.1639   | 0.5407 | undecided           
+
+
+[Sample 6] ID: persona_58_Turn16
+Context Preview: **Thought Process** : The Persuadee has shown interest but is hesitant to commit to a donation immed...
+------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token               
+------------------------------------------------------------
+1     | 1.4385   | 0.3154 | has                 
+2     | 1.4257   | 0.3925 | would               
+3     | 1.3736   | 0.3182 | make                
+4     | 1.3605   | 0.3305 | personal            
+5     | 1.3083   | 0.3780 | last                
+6     | 1.2491   | 0.3876 | considering         
+7     | 1.2459   | 0.4742 | illustrates         
+8     | 1.2214   | 0.4986 | are                 
+9     | 1.2207   | 0.5401 | still               
+10    | 1.1712   | 0.5312 | is                  
+
+
+[Sample 7] ID: persona_141_Turn8
+Context Preview: **Thought Process**: The conversation is currently focused on transparency and accountability, with ...
+------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token               
+------------------------------------------------------------
+1     | 1.3942   | 0.3697 | strengthen          
+2     | 1.3866   | 0.3422 | highlighting        
+3     | 1.3188   | 0.4511 | track               
+4     | 1.2942   | 0.4401 | \n\n                
+5     | 1.2146   | 0.5457 | At                  
+6     | 1.2127   | 0.5618 | certifications      
+7     | 1.2068   | 0.5716 | the                 
+8     | 1.1882   | 0.4053 | reass               
+9     | 1.1765   | 0.5048 | looking             
+10    | 1.0593   | 0.6227 | currently           
+
+
+[Sample 8] ID: persona_58_Turn10
+Context Preview: **Thought Process** : The Persuadee has shown interest in the charity's impact but is hesitant to co...
+------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token               
+------------------------------------------------------------
+1     | 1.1687   | 0.4242 | approach            
+2     | 1.0781   | 0.4192 | indicating          
+3     | 1.0528   | 0.5413 | need                
+4     | 1.0174   | 0.4223 | detailed            
+5     | 1.0023   | 0.5434 | hesitation          
+6     | 0.9837   | 0.4373 | towards             
+7     | 0.9187   | 0.6888 | encourage           
+8     | 0.8924   | 0.5224 | that                
+9     | 0.8708   | 0.6624 | hesitant            
+10    | 0.8360   | 0.5374 | requested           
+
+
+[Sample 9] ID: persona_141_Turn16
+Context Preview: **Thought Process**: The dialogue history shows that the Persuadee has been asking for more informat...
+------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token               
+------------------------------------------------------------
+1     | 1.3708   | 0.4611 | starts              
+2     | 1.3015   | 0.4444 | asking              
+3     | 1.2993   | 0.3213 | use                 
+4     | 1.2777   | 0.4289 | interest            
+5     | 1.2709   | 0.4842 | encourages          
+6     | 1.2523   | 0.3222 | factual             
+7     | 1.2084   | 0.5104 | expressed           
+8     | 1.1692   | 0.5627 | a                   
+9     | 1.1563   | 0.5929 | which               
+10    | 1.1084   | 0.5220 | can                 
+

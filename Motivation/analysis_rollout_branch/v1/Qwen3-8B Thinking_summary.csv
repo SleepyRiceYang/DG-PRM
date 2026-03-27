@@ -1,0 +1,14 @@
+Method,Root SR,Rescue Rate,Avg Rescue Turns,CES (Eff-Score),Avg Triggers,Precision
+exp(All-Trigger),10.0%,66.7%,6.33,1.05,8.80,20.5%
+ActionEntropy,10.0%,55.6%,6.60,0.84,5.00,22.0%
+ActionEntropy(T),10.0%,55.6%,6.60,0.84,5.00,22.0%
+ActionEntropy(T)(C),10.0%,55.6%,6.60,0.84,5.00,24.0%
+StateEntropy,10.0%,55.6%,7.60,0.73,5.00,18.0%
+StateEntropy(T),10.0%,66.7%,6.83,0.98,5.00,26.0%
+StateEntropy(T)(C),10.0%,66.7%,6.83,0.98,5.00,24.0%
+Dissonance,10.0%,55.6%,7.60,0.73,5.00,14.0%
+Dissonance(T),10.0%,55.6%,7.00,0.79,5.00,18.0%
+Dissonance(T)(C),10.0%,66.7%,7.00,0.95,5.00,26.0%
+Trend,10.0%,66.7%,6.33,1.05,5.00,24.0%
+Trend(T),10.0%,66.7%,6.33,1.05,5.00,22.0%
+Trend(T)(C),10.0%,66.7%,6.33,1.05,5.00,24.0%

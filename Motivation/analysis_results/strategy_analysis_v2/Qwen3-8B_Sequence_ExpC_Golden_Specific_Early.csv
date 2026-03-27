@@ -1,0 +1,16 @@
+Triplet,Prob_Success,Prob_Fail,Golden_Diff
+Personal Story -> Information Inquiry -> Credibility Appeal,0.06060606060606061,0.0196078431372549,0.040998217468805706
+Greeting -> Information Inquiry -> Donation Information,0.030303030303030304,0.006535947712418301,0.023767082590612002
+Emotion Appeal -> Information Inquiry -> Personal Story,0.030303030303030304,0.006535947712418301,0.023767082590612002
+Greeting -> Others -> Personal Story,0.06060606060606061,0.0392156862745098,0.021390374331550804
+Credibility Appeal -> Information Inquiry -> Donation Information,0.04040404040404041,0.0196078431372549,0.020796197266785506
+Greeting -> Others -> Credibility Appeal,0.04040404040404041,0.026143790849673203,0.014260249554367204
+Greeting -> Others -> Foot in the Door,0.0707070707070707,0.058823529411764705,0.011883541295306
+Logical Appeal -> Information Inquiry -> Credibility Appeal,0.030303030303030304,0.0196078431372549,0.010695187165775402
+Greeting -> Hesitance -> Personal Story,0.010101010101010102,0.0001,0.010001010101010102
+Greeting -> Self Pity -> Emotion Appeal,0.010101010101010102,0.0001,0.010001010101010102
+Greeting -> Self Pity -> Credibility Appeal,0.010101010101010102,0.0001,0.010001010101010102
+Emotion Appeal -> Hesitance -> Personal Related Inquiry,0.010101010101010102,0.0001,0.010001010101010102
+Emotion Appeal -> Hesitance -> Credibility Appeal,0.010101010101010102,0.0001,0.010001010101010102
+Foot in the Door -> Hesitance -> Personal Story,0.010101010101010102,0.0001,0.010001010101010102
+Credibility Appeal -> Information Inquiry -> Personal Story,0.010101010101010102,0.0001,0.010001010101010102

@@ -1,0 +1,276 @@
+Experiment,User_ID,Turn,Node_Type,Criticality,H_state,H_action,Sys_Strategy,Sys_Category,Prev_User_Strategy,Prev_User_Category,Credit_Score
+Qwen3-8B,persona_36,2,Failed Root (Rescue Potential),1.0,0.5545563752193174,0.3035468992474182,Emotion Appeal,Core Persuasion,Others,Evasion,-1.0
+Qwen3-8B,persona_36,3,Failed Root (Rescue Potential),0.25,0.3900148401993468,0.3074150966760047,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,-0.25
+Qwen3-8B,persona_36,4,Failed Root (Rescue Potential),1.0,0.5042664671272546,0.14673189215136506,Foot in the Door,Action Facilitation,Hesitance,Evasion,-1.0
+Qwen3-8B,persona_36,5,Failed Root (Rescue Potential),0.0,0.5906913497889196,0.4513030870938565,Self Modeling,Action Facilitation,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_36,6,Failed Root (Rescue Potential),0.0,0.5265482513035806,0.45144518020970253,Task Related Inquiry,Exploration,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_36,7,Failed Root (Rescue Potential),0.0,0.5621381666202935,0.10576781482022161,Personal Related Inquiry,Exploration,Personal Choice,Defensive,-0.0
+Qwen3-8B,persona_36,8,Failed Root (Rescue Potential),0.0,0.48341824959001595,0.22597605541751303,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_36,9,Failed Root (Rescue Potential),0.0,0.5109624254167213,0.21549060059392813,Foot in the Door,Action Facilitation,Others,Evasion,-0.0
+Qwen3-8B,persona_36,10,Failed Root (Rescue Potential),0.0,0.5680706973467868,0.012295126754192236,Foot in the Door,Action Facilitation,Others,Evasion,-0.0
+Qwen3-8B,persona_82,2,Successful Root (Vulnerability),0.75,0.40105165016697464,0.4856697526487889,Emotion Appeal,Core Persuasion,Others,Evasion,0.75
+Qwen3-8B,persona_82,3,Successful Root (Vulnerability),1.0,0.3549561619003317,0.3026757652615549,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,1.0
+Qwen3-8B,persona_82,4,Successful Root (Vulnerability),1.0,0.4439701864933815,9.919002814949665e-05,Donation Information,Action Facilitation,Information Inquiry,Evasion,1.0
+Qwen3-8B,persona_82,5,Successful Root (Vulnerability),1.0,0.5074196065972848,0.002684271146591812,Source Related Inquiry,Exploration,Information Inquiry,Evasion,1.0
+Qwen3-8B,persona_82,6,Successful Root (Vulnerability),0.75,0.5257441213324178,0.012819259603062919,Personal Story,Core Persuasion,Information Inquiry,Evasion,0.75
+Qwen3-8B,persona_82,7,Successful Root (Vulnerability),0.25,0.5964594187121931,0.03707474413146048,Foot in the Door,Action Facilitation,Hesitance,Evasion,0.25
+Qwen3-8B,persona_82,8,Successful Root (Vulnerability),1.0,0.5343534319696541,0.2691601143377655,Foot in the Door,Action Facilitation,Hesitance,Evasion,1.0
+Qwen3-8B,persona_64,2,Failed Root (Rescue Potential),0.5,0.4551426427316291,0.41265204646400067,Emotion Appeal,Core Persuasion,Others,Evasion,-0.5
+Qwen3-8B,persona_64,3,Failed Root (Rescue Potential),0.25,0.4532575307367476,0.45402133727370997,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,-0.25
+Qwen3-8B,persona_64,4,Failed Root (Rescue Potential),0.0,0.5341664531106255,0.025086146205810685,Personal Story,Core Persuasion,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_64,5,Failed Root (Rescue Potential),0.0,0.3609656391292324,0.0021836148718255015,Source Related Inquiry,Exploration,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_64,6,Failed Root (Rescue Potential),0.25,0.5024882184333724,0.019894476288959823,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.25
+Qwen3-8B,persona_64,7,Failed Root (Rescue Potential),0.0,0.5557769807105223,0.09351410945397144,Foot in the Door,Action Facilitation,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_64,8,Failed Root (Rescue Potential),0.0,0.46423444831015315,0.10617901192175822,Foot in the Door,Action Facilitation,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_64,9,Failed Root (Rescue Potential),0.0,0.48485395580777835,0.03501368039618998,Foot in the Door,Action Facilitation,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_64,10,Failed Root (Rescue Potential),0.0,0.47411954693790087,0.002546952312559614,Foot in the Door,Action Facilitation,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_58,2,Successful Root (Vulnerability),0.5,0.4545722572375657,0.36252322049573815,Logical Appeal,Core Persuasion,Others,Evasion,0.5
+Qwen3-8B,persona_58,3,Successful Root (Vulnerability),0.75,0.5897283389476505,0.3965710276035904,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,0.75
+Qwen3-8B,persona_58,4,Successful Root (Vulnerability),1.0,0.4230167937990892,0.010036883136769316,Source Related Inquiry,Exploration,Information Inquiry,Evasion,1.0
+Qwen3-8B,persona_58,5,Successful Root (Vulnerability),0.75,0.5066887368435642,0.0018305369316845733,Personal Story,Core Persuasion,Hesitance,Evasion,0.75
+Qwen3-8B,persona_58,6,Successful Root (Vulnerability),0.0,0.6105494333435927,0.0018774729969951974,Foot in the Door,Action Facilitation,Personal Choice,Defensive,0.0
+Qwen3-8B,persona_58,7,Successful Root (Vulnerability),0.0,0.49127173505234856,0.2862257035938219,Self Modeling,Action Facilitation,Hesitance,Evasion,0.0
+Qwen3-8B,persona_13,2,Failed Root (Rescue Potential),0.25,0.5511099346460568,0.4003851288359752,Emotion Appeal,Core Persuasion,Others,Evasion,-0.25
+Qwen3-8B,persona_13,3,Failed Root (Rescue Potential),0.25,0.4486143894206111,0.016796287703965018,Donation Information,Action Facilitation,Information Inquiry,Evasion,-0.25
+Qwen3-8B,persona_13,4,Failed Root (Rescue Potential),0.75,0.40907970975461866,0.33209188390194067,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,-0.75
+Qwen3-8B,persona_13,5,Failed Root (Rescue Potential),0.25,0.5295697196199417,0.016725072631191773,Personal Story,Core Persuasion,Information Inquiry,Evasion,-0.25
+Qwen3-8B,persona_13,6,Failed Root (Rescue Potential),0.25,0.5209907500867841,0.15746530123647562,Foot in the Door,Action Facilitation,Information Inquiry,Evasion,-0.25
+Qwen3-8B,persona_13,7,Failed Root (Rescue Potential),0.75,0.5579983995697299,0.04209853448273305,Self Modeling,Action Facilitation,Hesitance,Evasion,-0.75
+Qwen3-8B,persona_13,8,Failed Root (Rescue Potential),0.5,0.5629944334849559,0.375441948080764,Task Related Inquiry,Exploration,Hesitance,Evasion,-0.5
+Qwen3-8B,persona_13,9,Failed Root (Rescue Potential),0.25,0.617231744724986,0.6798428543343238,Personal Story,Core Persuasion,Hesitance,Evasion,-0.25
+Qwen3-8B,persona_13,10,Failed Root (Rescue Potential),0.0,0.616206490709534,0.4361205764839971,Emotion Appeal,Core Persuasion,Personal Choice,Defensive,-0.0
+Qwen3-8B,persona_280,2,Failed Root (Rescue Potential),0.5,0.5234995086313212,0.4183066796188989,Emotion Appeal,Core Persuasion,Others,Evasion,-0.5
+Qwen3-8B,persona_280,3,Failed Root (Rescue Potential),0.5,0.3821024378867801,5.062598865176696e-05,Donation Information,Action Facilitation,Information Inquiry,Evasion,-0.5
+Qwen3-8B,persona_280,4,Failed Root (Rescue Potential),0.25,0.38742262200144095,0.2543204097671474,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,-0.25
+Qwen3-8B,persona_280,5,Failed Root (Rescue Potential),0.75,0.45818046897217246,0.5463364633562033,Personal Story,Core Persuasion,Hesitance,Evasion,-0.75
+Qwen3-8B,persona_280,6,Failed Root (Rescue Potential),0.5,0.5513827321250965,0.024786587970743783,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.5
+Qwen3-8B,persona_280,7,Failed Root (Rescue Potential),0.0,0.6044265756963427,0.2890634001347157,Self Modeling,Action Facilitation,Personal Choice,Defensive,-0.0
+Qwen3-8B,persona_280,8,Failed Root (Rescue Potential),0.5,0.575044988840248,0.1293204330752086,Personal Related Inquiry,Exploration,Personal Choice,Defensive,-0.5
+Qwen3-8B,persona_280,9,Failed Root (Rescue Potential),0.0,0.5105077122719348,0.23079289161203373,Source Related Inquiry,Exploration,Personal Choice,Defensive,-0.0
+Qwen3-8B,persona_280,10,Failed Root (Rescue Potential),0.0,0.5504140402480349,0.284193700369877,Task Related Inquiry,Exploration,Personal Choice,Defensive,-0.0
+Qwen3-8B,persona_45,2,Failed Root (Rescue Potential),0.25,0.5271813293273642,0.3964588726030422,Emotion Appeal,Core Persuasion,Hesitance,Evasion,-0.25
+Qwen3-8B,persona_45,3,Failed Root (Rescue Potential),0.0,0.32501288671179357,0.3466385146333063,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_45,4,Failed Root (Rescue Potential),0.0,0.4490046888016158,0.11626561015256964,Donation Information,Action Facilitation,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_45,5,Failed Root (Rescue Potential),0.0,0.5370390530521046,6.0480994380525326e-05,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_45,6,Failed Root (Rescue Potential),0.25,0.5098925729123325,0.17287780479815837,Self Modeling,Action Facilitation,Hesitance,Evasion,-0.25
+Qwen3-8B,persona_45,7,Failed Root (Rescue Potential),0.0,0.6218218319699432,0.2471298368953058,Personal Related Inquiry,Exploration,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_45,8,Failed Root (Rescue Potential),0.0,0.5592486874338568,0.2976778498361031,Personal Story,Core Persuasion,Personal Choice,Defensive,-0.0
+Qwen3-8B,persona_45,9,Failed Root (Rescue Potential),0.0,0.5836395063162205,0.17873802177242576,Foot in the Door,Action Facilitation,Personal Choice,Defensive,-0.0
+Qwen3-8B,persona_45,10,Failed Root (Rescue Potential),0.0,0.6034092517571755,0.0024850623384413805,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_16,2,Failed Root (Rescue Potential),0.0,0.40105165016697464,0.4856697526487889,Emotion Appeal,Core Persuasion,Others,Evasion,-0.0
+Qwen3-8B,persona_16,3,Failed Root (Rescue Potential),0.0,0.37633056164451334,0.3512254861132244,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_16,4,Failed Root (Rescue Potential),0.25,0.3758168692753033,5.2483138730292965e-05,Donation Information,Action Facilitation,Information Inquiry,Evasion,-0.25
+Qwen3-8B,persona_16,5,Failed Root (Rescue Potential),0.0,0.4396211516223519,0.42766916456187787,Credibility Appeal,Core Persuasion,Source Derogation,Offensive,-0.0
+Qwen3-8B,persona_16,6,Failed Root (Rescue Potential),0.25,0.5566669217167992,0.433267321505002,Self Modeling,Action Facilitation,Hesitance,Evasion,-0.25
+Qwen3-8B,persona_16,7,Failed Root (Rescue Potential),0.0,0.5577250050784859,0.07092903860837639,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_16,8,Failed Root (Rescue Potential),0.0,0.46337226086707206,1.917426583882943e-05,Personal Story,Core Persuasion,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_16,9,Failed Root (Rescue Potential),0.0,0.5678254343203217,0.4381645872300168,Task Related Inquiry,Exploration,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_16,10,Failed Root (Rescue Potential),0.0,0.5274804976136267,0.004400952774424657,Source Related Inquiry,Exploration,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_48,2,Successful Root (Vulnerability),0.5,0.49765394494612586,0.2527798545445001,Personal Story,Core Persuasion,Others,Evasion,0.5
+Qwen3-8B,persona_48,3,Successful Root (Vulnerability),0.25,0.38848845245769936,5.889658010644916e-05,Donation Information,Action Facilitation,Information Inquiry,Evasion,0.25
+Qwen3-8B,persona_48,4,Successful Root (Vulnerability),0.5,0.4526574046151222,9.549864417063959e-05,Foot in the Door,Action Facilitation,Hesitance,Evasion,0.5
+Qwen3-8B,persona_48,5,Successful Root (Vulnerability),0.5,0.5207232851328699,0.4373836812778341,Credibility Appeal,Core Persuasion,Hesitance,Evasion,0.5
+Qwen3-8B,persona_48,6,Successful Root (Vulnerability),1.0,0.4675027191879583,0.0064169865866463395,Personal Story,Core Persuasion,Information Inquiry,Evasion,1.0
+Qwen3-8B,persona_48,7,Successful Root (Vulnerability),0.5,0.514836249992428,0.496107808552142,Self Modeling,Action Facilitation,Hesitance,Evasion,0.5
+Qwen3-8B,persona_112,2,Failed Root (Rescue Potential),0.25,0.5858603440490996,0.21547073536359884,Foot in the Door,Action Facilitation,Others,Evasion,-0.25
+Qwen3-8B,persona_112,3,Failed Root (Rescue Potential),0.25,0.441714441212533,0.44363529885311925,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,-0.25
+Qwen3-8B,persona_112,4,Failed Root (Rescue Potential),0.0,0.4674452136012518,0.0018855123209941332,Source Related Inquiry,Exploration,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_112,5,Failed Root (Rescue Potential),0.0,0.5417725811465834,0.06240993465570331,Personal Story,Core Persuasion,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_112,6,Failed Root (Rescue Potential),0.25,0.5326485064103909,0.10111610752972755,Self Modeling,Action Facilitation,Personal Choice,Defensive,-0.25
+Qwen3-8B,persona_112,7,Failed Root (Rescue Potential),0.25,0.5540562914245122,0.24281221563608846,Foot in the Door,Action Facilitation,Personal Choice,Defensive,-0.25
+Qwen3-8B,persona_112,8,Failed Root (Rescue Potential),0.25,0.5258912841770519,0.3089043287222866,Foot in the Door,Action Facilitation,Personal Choice,Defensive,-0.25
+Qwen3-8B,persona_112,9,Failed Root (Rescue Potential),0.0,0.5843571776082054,0.11822388847723668,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_112,10,Failed Root (Rescue Potential),0.0,0.4147084100099456,0.0005185965761791341,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_14,2,Failed Root (Rescue Potential),0.5,0.40105165016697464,0.4856697526487889,Emotion Appeal,Core Persuasion,Others,Evasion,-0.5
+Qwen3-8B,persona_14,3,Failed Root (Rescue Potential),0.5,0.4263733439226252,0.47704559093196286,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,-0.5
+Qwen3-8B,persona_14,4,Failed Root (Rescue Potential),0.5,0.3439499537052046,0.04698211142428685,Personal Story,Core Persuasion,Information Inquiry,Evasion,-0.5
+Qwen3-8B,persona_14,5,Failed Root (Rescue Potential),0.0,0.47824463521287947,0.018968402496026552,Source Related Inquiry,Exploration,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_14,6,Failed Root (Rescue Potential),0.5,0.5051365343493538,4.5414809140561095e-05,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.5
+Qwen3-8B,persona_14,7,Failed Root (Rescue Potential),0.5,0.6724807820435909,0.010826367807906604,Self Modeling,Action Facilitation,Hesitance,Evasion,-0.5
+Qwen3-8B,persona_14,8,Failed Root (Rescue Potential),0.5,0.5871026365642711,0.19360453074316075,Task Related Inquiry,Exploration,Hesitance,Evasion,-0.5
+Qwen3-8B,persona_14,9,Failed Root (Rescue Potential),0.5,0.4270582201057264,2.851785371868079e-05,Donation Information,Action Facilitation,Information Inquiry,Evasion,-0.5
+Qwen3-8B,persona_14,10,Failed Root (Rescue Potential),0.25,0.5270306977250816,0.41459714950897447,Personal Story,Core Persuasion,Hesitance,Evasion,-0.25
+Qwen3-8B,persona_288,2,Failed Root (Rescue Potential),0.0,0.48771050085690926,0.643555293029648,Emotion Appeal,Core Persuasion,Others,Evasion,-0.0
+Qwen3-8B,persona_288,3,Failed Root (Rescue Potential),0.0,0.4418715275033429,4.477764127460091e-05,Donation Information,Action Facilitation,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_288,4,Failed Root (Rescue Potential),0.5,0.5294656008349167,0.39128547958566384,Credibility Appeal,Core Persuasion,Hesitance,Evasion,-0.5
+Qwen3-8B,persona_288,5,Failed Root (Rescue Potential),0.5,0.5128690394591892,0.22506362558794646,Personal Story,Core Persuasion,Hesitance,Evasion,-0.5
+Qwen3-8B,persona_288,6,Failed Root (Rescue Potential),0.0,0.4881552592312906,0.0002405500768110789,Foot in the Door,Action Facilitation,Self Pity,Defensive,-0.0
+Qwen3-8B,persona_288,7,Failed Root (Rescue Potential),0.0,0.5143361760708044,0.10470326432946019,Self Modeling,Action Facilitation,Personal Choice,Defensive,-0.0
+Qwen3-8B,persona_288,8,Failed Root (Rescue Potential),0.0,0.5958824424392024,0.028801214963757624,Source Related Inquiry,Exploration,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_288,9,Failed Root (Rescue Potential),0.0,0.5965613218850117,0.2755259001802511,Source Related Inquiry,Exploration,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_288,10,Failed Root (Rescue Potential),0.0,0.6000556216249662,0.2725605475874216,Source Related Inquiry,Exploration,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_113,2,Successful Root (Vulnerability),0.25,0.5368447650323737,0.3258730457696786,Emotion Appeal,Core Persuasion,Self Pity,Defensive,0.25
+Qwen3-8B,persona_113,3,Successful Root (Vulnerability),0.25,0.4786889146947317,0.3579894646831138,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,0.25
+Qwen3-8B,persona_113,4,Successful Root (Vulnerability),0.5,0.46906316103552137,0.0005621297869477003,Donation Information,Action Facilitation,Information Inquiry,Evasion,0.5
+Qwen3-8B,persona_113,5,Successful Root (Vulnerability),0.5,0.5687767736931711,0.017710705803569593,Foot in the Door,Action Facilitation,Hesitance,Evasion,0.5
+Qwen3-8B,persona_113,6,Successful Root (Vulnerability),0.25,0.5046635849866626,0.02271825322620072,Self Modeling,Action Facilitation,Self Pity,Defensive,0.25
+Qwen3-8B,persona_113,7,Successful Root (Vulnerability),0.75,0.5265413981740257,0.6928706773667764,Personal Story,Core Persuasion,Self-assertion,Offensive,0.75
+Qwen3-8B,persona_113,8,Successful Root (Vulnerability),0.75,0.5222712548834109,0.4184336989858957,Source Related Inquiry,Exploration,Hesitance,Evasion,0.75
+Qwen3-8B,persona_113,9,Successful Root (Vulnerability),0.75,0.6019291778881221,0.130164943993589,Task Related Inquiry,Exploration,Hesitance,Evasion,0.75
+Qwen3-8B,persona_80,2,Successful Root (Vulnerability),0.5,0.4175189616083338,0.471681966875357,Emotion Appeal,Core Persuasion,Others,Evasion,0.5
+Qwen3-8B,persona_80,3,Successful Root (Vulnerability),0.5,0.3562763565681504,0.13400736857179482,Donation Information,Action Facilitation,Information Inquiry,Evasion,0.5
+Qwen3-8B,persona_80,4,Successful Root (Vulnerability),0.75,0.4217185989837991,0.3269479660280496,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,0.75
+Qwen3-8B,persona_80,5,Successful Root (Vulnerability),0.5,0.46091069312370697,2.513464798596856e-05,Foot in the Door,Action Facilitation,Hesitance,Evasion,0.5
+Qwen3-8B,persona_80,6,Successful Root (Vulnerability),0.0,0.528160575933942,0.29069096970817093,Personal Story,Core Persuasion,Information Inquiry,Evasion,0.0
+Qwen3-8B,persona_195,2,Successful Root (Vulnerability),0.25,0.40105165016697464,0.4856697526487889,Emotion Appeal,Core Persuasion,Others,Evasion,0.25
+Qwen3-8B,persona_195,3,Successful Root (Vulnerability),0.25,0.3697635540726387,0.3904046975865912,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,0.25
+Qwen3-8B,persona_195,4,Successful Root (Vulnerability),0.25,0.43161897349785483,0.0013551180586900086,Donation Information,Action Facilitation,Information Inquiry,Evasion,0.25
+Qwen3-8B,persona_195,5,Successful Root (Vulnerability),0.25,0.572143045651885,0.17433402316289134,Foot in the Door,Action Facilitation,Hesitance,Evasion,0.25
+Qwen3-8B,persona_283,2,Failed Root (Rescue Potential),0.75,0.6227029450297843,0.4973699241827095,Emotion Appeal,Core Persuasion,Others,Evasion,-0.75
+Qwen3-8B,persona_283,3,Failed Root (Rescue Potential),0.75,0.40433082103168366,0.33618953927621725,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,-0.75
+Qwen3-8B,persona_283,4,Failed Root (Rescue Potential),0.25,0.44301258359440876,0.001832422886498119,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.25
+Qwen3-8B,persona_283,5,Failed Root (Rescue Potential),1.0,0.5021212847828275,0.01503791684145564,Personal Story,Core Persuasion,Hesitance,Evasion,-1.0
+Qwen3-8B,persona_283,6,Failed Root (Rescue Potential),0.25,0.5634571357444716,0.08496030993424485,Donation Information,Action Facilitation,Hesitance,Evasion,-0.25
+Qwen3-8B,persona_283,7,Failed Root (Rescue Potential),0.5,0.5432666150769216,0.3646638363331209,Self Modeling,Action Facilitation,Hesitance,Evasion,-0.5
+Qwen3-8B,persona_283,8,Failed Root (Rescue Potential),0.5,0.5580966878629585,0.15647696525776442,Personal Related Inquiry,Exploration,Personal Choice,Defensive,-0.5
+Qwen3-8B,persona_283,9,Failed Root (Rescue Potential),0.25,0.525716018739793,0.0028665514750356997,Source Related Inquiry,Exploration,Personal Choice,Defensive,-0.25
+Qwen3-8B,persona_283,10,Failed Root (Rescue Potential),0.25,0.5437575343882701,0.24619897467771754,Task Related Inquiry,Exploration,Hesitance,Evasion,-0.25
+Qwen3-8B,persona_296,2,Failed Root (Rescue Potential),0.25,0.5456213126485833,0.38350922722921615,Emotion Appeal,Core Persuasion,Others,Evasion,-0.25
+Qwen3-8B,persona_296,3,Failed Root (Rescue Potential),0.5,0.5270315430185067,0.45066243534547995,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.5
+Qwen3-8B,persona_296,4,Failed Root (Rescue Potential),0.0,0.5599844411738394,0.057905758994608036,Foot in the Door,Action Facilitation,Self Pity,Defensive,-0.0
+Qwen3-8B,persona_296,5,Failed Root (Rescue Potential),0.0,0.3636811054321668,0.0031688067865829005,Source Related Inquiry,Exploration,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_296,6,Failed Root (Rescue Potential),0.0,0.5420912103563977,0.007145916282305663,Personal Story,Core Persuasion,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_296,7,Failed Root (Rescue Potential),0.0,0.5493088310263134,0.1642328922282654,Donation Information,Action Facilitation,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_296,8,Failed Root (Rescue Potential),0.0,0.47723981243792807,0.0024854420774440334,Credibility Appeal,Core Persuasion,Personal Choice,Defensive,-0.0
+Qwen3-8B,persona_296,9,Failed Root (Rescue Potential),0.0,0.5607184581623778,0.09004842025292126,Self Modeling,Action Facilitation,Personal Choice,Defensive,-0.0
+Qwen3-8B,persona_296,10,Failed Root (Rescue Potential),0.0,0.5033375878637466,0.39367719172593063,Self Modeling,Action Facilitation,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_117,2,Failed Root (Rescue Potential),0.25,0.4878385287491365,0.05191647115331463,Foot in the Door,Action Facilitation,Others,Evasion,-0.25
+Qwen3-8B,persona_117,3,Failed Root (Rescue Potential),0.0,0.4309566227898566,0.4660726842002139,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_117,4,Failed Root (Rescue Potential),0.0,0.4075222459406632,0.25162290466902576,Source Related Inquiry,Exploration,Information Inquiry,Evasion,-0.0
+Qwen3-8B,persona_117,5,Failed Root (Rescue Potential),0.25,0.5047322756839306,0.08391036004953083,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.25
+Qwen3-8B,persona_117,6,Failed Root (Rescue Potential),0.0,0.42566867507359024,0.1152824332107299,Personal Story,Core Persuasion,Personal Choice,Defensive,-0.0
+Qwen3-8B,persona_117,7,Failed Root (Rescue Potential),0.0,0.5618537124585922,0.12106142992317857,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_117,8,Failed Root (Rescue Potential),0.0,0.5101966664304336,0.13162835742367576,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_117,9,Failed Root (Rescue Potential),0.0,0.5496049219486442,0.0923173403357597,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.0
+Qwen3-8B,persona_117,10,Failed Root (Rescue Potential),0.0,0.4673871577879089,0.0030096158826989493,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.0
+Qwen3-8B-Thinking,persona_58,2,Successful Root (Vulnerability),0.5,0.2765790320331825,0.2533424616245086,Personal Story,Core Persuasion,Others,Evasion,0.5
+Qwen3-8B-Thinking,persona_58,3,Successful Root (Vulnerability),0.5,0.2529179705757683,0.18120159956214296,Foot in the Door,Action Facilitation,Hesitance,Evasion,0.5
+Qwen3-8B-Thinking,persona_58,4,Successful Root (Vulnerability),0.75,0.255927621561559,0.32567310114688497,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,0.75
+Qwen3-8B-Thinking,persona_58,5,Successful Root (Vulnerability),0.75,0.3516265219626687,0.23035066653379016,Personal Related Inquiry,Exploration,Hesitance,Evasion,0.75
+Qwen3-8B-Thinking,persona_58,6,Successful Root (Vulnerability),0.75,0.3177306910510357,0.20909539954605372,Logical Appeal,Core Persuasion,Hesitance,Evasion,0.75
+Qwen3-8B-Thinking,persona_13,2,Failed Root (Rescue Potential),0.75,0.3565945938448009,0.157205851771994,Personal Story,Core Persuasion,Others,Evasion,-0.75
+Qwen3-8B-Thinking,persona_13,3,Failed Root (Rescue Potential),0.25,0.17626331217619115,0.1617857218473144,Donation Information,Action Facilitation,Information Inquiry,Evasion,-0.25
+Qwen3-8B-Thinking,persona_13,4,Failed Root (Rescue Potential),0.0,0.2572428530937273,0.32032055088047845,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,-0.0
+Qwen3-8B-Thinking,persona_13,5,Failed Root (Rescue Potential),0.0,0.2656661760545179,0.17201497782714611,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.0
+Qwen3-8B-Thinking,persona_13,6,Failed Root (Rescue Potential),0.0,0.23952614212896314,0.3661758388927147,Self Modeling,Action Facilitation,Hesitance,Evasion,-0.0
+Qwen3-8B-Thinking,persona_13,7,Failed Root (Rescue Potential),0.0,0.27864038827661847,0.20921307340592052,Task Related Inquiry,Exploration,Hesitance,Evasion,-0.0
+Qwen3-8B-Thinking,persona_13,8,Failed Root (Rescue Potential),0.0,0.24611264668446103,0.23059905972856948,Donation Information,Action Facilitation,Information Inquiry,Evasion,-0.0
+Qwen3-8B-Thinking,persona_13,9,Failed Root (Rescue Potential),0.25,0.3384413557091642,0.25969808713334946,Logical Appeal,Core Persuasion,Hesitance,Evasion,-0.25
+Qwen3-8B-Thinking,persona_13,10,Failed Root (Rescue Potential),0.0,0.19838730639548754,0.21320438594094182,Personal Related Inquiry,Exploration,Personal Choice,Defensive,-0.0
+Qwen3-8B-Thinking,persona_280,2,Successful Root (Vulnerability),0.5,0.2943800295946779,0.21501745880716389,Personal Story,Core Persuasion,Others,Evasion,0.5
+Qwen3-8B-Thinking,persona_280,3,Successful Root (Vulnerability),0.25,0.08483542821819251,0.13772587051643911,Donation Information,Action Facilitation,Information Inquiry,Evasion,0.25
+Qwen3-8B-Thinking,persona_280,4,Successful Root (Vulnerability),0.0,0.21302985201887564,0.20182703054116038,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,0.0
+Qwen3-8B-Thinking,persona_280,5,Successful Root (Vulnerability),0.0,0.2763733911553698,0.19631416074424313,Foot in the Door,Action Facilitation,Hesitance,Evasion,0.0
+Qwen3-8B-Thinking,persona_45,2,Failed Root (Rescue Potential),0.75,0.3411208392380525,0.23322365953408933,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.75
+Qwen3-8B-Thinking,persona_45,3,Failed Root (Rescue Potential),0.0,0.19793069820029804,0.12090310971254499,Donation Information,Action Facilitation,Information Inquiry,Evasion,-0.0
+Qwen3-8B-Thinking,persona_45,4,Failed Root (Rescue Potential),0.0,0.24160864345010372,0.155903219492004,Credibility Appeal,Core Persuasion,Source Derogation,Offensive,-0.0
+Qwen3-8B-Thinking,persona_45,5,Failed Root (Rescue Potential),0.5,0.277305569778692,0.04992877711729788,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.5
+Qwen3-8B-Thinking,persona_45,6,Failed Root (Rescue Potential),0.25,0.3079155627246372,0.4808622253805207,Personal Story,Core Persuasion,Self Pity,Defensive,-0.25
+Qwen3-8B-Thinking,persona_45,7,Failed Root (Rescue Potential),0.0,0.28866096549527953,0.028180231425790268,Source Related Inquiry,Exploration,Personal Choice,Defensive,-0.0
+Qwen3-8B-Thinking,persona_45,8,Failed Root (Rescue Potential),0.25,0.22260894503107612,2.2471554884661608e-05,Self Modeling,Action Facilitation,Hesitance,Evasion,-0.25
+Qwen3-8B-Thinking,persona_45,9,Failed Root (Rescue Potential),0.75,0.29769055901574076,0.2254464724722272,Logical Appeal,Core Persuasion,Hesitance,Evasion,-0.75
+Qwen3-8B-Thinking,persona_45,10,Failed Root (Rescue Potential),0.25,0.36601842206857443,0.026133097455218718,Self Modeling,Action Facilitation,Hesitance,Evasion,-0.25
+Qwen3-8B-Thinking,persona_16,2,Failed Root (Rescue Potential),0.0,0.2785088508530597,0.21091697070592164,Credibility Appeal,Core Persuasion,Others,Evasion,-0.0
+Qwen3-8B-Thinking,persona_16,3,Failed Root (Rescue Potential),0.25,0.2756273528933907,0.1445969802664622,Donation Information,Action Facilitation,Information Inquiry,Evasion,-0.25
+Qwen3-8B-Thinking,persona_16,4,Failed Root (Rescue Potential),0.5,0.247893835559659,0.20905881450291755,Personal Story,Core Persuasion,Information Inquiry,Evasion,-0.5
+Qwen3-8B-Thinking,persona_16,5,Failed Root (Rescue Potential),0.5,0.21395490942702555,0.0001203259906267669,Personal Related Inquiry,Exploration,Hesitance,Evasion,-0.5
+Qwen3-8B-Thinking,persona_16,6,Failed Root (Rescue Potential),0.75,0.2261859657046072,0.2436904614332177,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.75
+Qwen3-8B-Thinking,persona_16,7,Failed Root (Rescue Potential),1.0,0.25754000878792077,0.25236924283329276,Logical Appeal,Core Persuasion,Hesitance,Evasion,-1.0
+Qwen3-8B-Thinking,persona_16,8,Failed Root (Rescue Potential),0.75,0.25374699897771763,0.00014385177172052447,Source Related Inquiry,Exploration,Information Inquiry,Evasion,-0.75
+Qwen3-8B-Thinking,persona_16,9,Failed Root (Rescue Potential),0.0,0.23169156917984235,0.0030343429178821893,Source Related Inquiry,Exploration,Information Inquiry,Evasion,-0.0
+Qwen3-8B-Thinking,persona_16,10,Failed Root (Rescue Potential),0.0,0.282814607488449,0.2903431000853521,Self Modeling,Action Facilitation,Hesitance,Evasion,-0.0
+Qwen3-8B-Thinking,persona_48,2,Successful Root (Vulnerability),0.25,0.29978699580510565,0.228743430871818,Emotion Appeal,Core Persuasion,Others,Evasion,0.25
+Qwen3-8B-Thinking,persona_48,3,Successful Root (Vulnerability),0.5,0.21886548118433832,0.2548095723468167,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,0.5
+Qwen3-8B-Thinking,persona_48,4,Successful Root (Vulnerability),0.0,0.2835518990352735,0.3990775257233509,Foot in the Door,Action Facilitation,Hesitance,Evasion,0.0
+Qwen3-8B-Thinking,persona_112,2,Failed Root (Rescue Potential),0.75,0.2992118371304717,0.004555347970856695,Logical Appeal,Core Persuasion,Others,Evasion,-0.75
+Qwen3-8B-Thinking,persona_112,3,Failed Root (Rescue Potential),0.5,0.19762956643724267,0.16705940972140917,Donation Information,Action Facilitation,Information Inquiry,Evasion,-0.5
+Qwen3-8B-Thinking,persona_112,4,Failed Root (Rescue Potential),0.0,0.2949149853052984,0.3226858585476862,Personal Story,Core Persuasion,Hesitance,Evasion,-0.0
+Qwen3-8B-Thinking,persona_112,5,Failed Root (Rescue Potential),0.75,0.17312629238136085,0.26786907823695194,Foot in the Door,Action Facilitation,Personal Choice,Defensive,-0.75
+Qwen3-8B-Thinking,persona_112,6,Failed Root (Rescue Potential),0.75,0.2829527120344154,0.0016263989910979063,Source Related Inquiry,Exploration,Hesitance,Evasion,-0.75
+Qwen3-8B-Thinking,persona_112,7,Failed Root (Rescue Potential),1.0,0.24936555658907492,0.3424665882701451,Credibility Appeal,Core Persuasion,Personal Choice,Defensive,-1.0
+Qwen3-8B-Thinking,persona_112,8,Failed Root (Rescue Potential),1.0,0.2827550830792973,4.980590377500234e-05,Self Modeling,Action Facilitation,Hesitance,Evasion,-1.0
+Qwen3-8B-Thinking,persona_112,9,Failed Root (Rescue Potential),1.0,0.305883269666536,0.0004633697403133463,Personal Related Inquiry,Exploration,Personal Choice,Defensive,-1.0
+Qwen3-8B-Thinking,persona_112,10,Failed Root (Rescue Potential),0.5,0.3306648583119056,0.020746231264640938,Foot in the Door,Action Facilitation,Personal Choice,Defensive,-0.5
+Qwen3-8B-Thinking,persona_14,2,Failed Root (Rescue Potential),0.5,0.2552857205878866,0.2326857362170326,Logical Appeal,Core Persuasion,Others,Evasion,-0.5
+Qwen3-8B-Thinking,persona_14,3,Failed Root (Rescue Potential),0.75,0.29652358245417376,0.23470156276174053,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,-0.75
+Qwen3-8B-Thinking,persona_14,4,Failed Root (Rescue Potential),0.25,0.17019070017587645,0.11072212704878573,Donation Information,Action Facilitation,Information Inquiry,Evasion,-0.25
+Qwen3-8B-Thinking,persona_14,5,Failed Root (Rescue Potential),0.5,0.2832417092125703,0.19351126841533012,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.5
+Qwen3-8B-Thinking,persona_14,6,Failed Root (Rescue Potential),1.0,0.32315108432098244,0.27594343401084603,Personal Story,Core Persuasion,Hesitance,Evasion,-1.0
+Qwen3-8B-Thinking,persona_14,7,Failed Root (Rescue Potential),1.0,0.3121866013950897,0.00010948459960235987,Personal Related Inquiry,Exploration,Hesitance,Evasion,-1.0
+Qwen3-8B-Thinking,persona_14,8,Failed Root (Rescue Potential),1.0,0.26761184134572213,0.014573531671351787,Task Related Inquiry,Exploration,Hesitance,Evasion,-1.0
+Qwen3-8B-Thinking,persona_14,9,Failed Root (Rescue Potential),0.0,0.39647845737241055,9.118030621990156e-05,Self Modeling,Action Facilitation,Personal Choice,Defensive,-0.0
+Qwen3-8B-Thinking,persona_14,10,Failed Root (Rescue Potential),0.0,0.30922037519191853,0.00020321934873566015,Emotion Appeal,Core Persuasion,Personal Choice,Defensive,-0.0
+Qwen3-8B-Thinking,persona_288,2,Successful Root (Vulnerability),0.75,0.25098767076263084,0.255024385997041,Foot in the Door,Action Facilitation,Others,Evasion,0.75
+Qwen3-8B-Thinking,persona_288,3,Successful Root (Vulnerability),0.75,0.1536959024570277,0.11260186011229455,Donation Information,Action Facilitation,Information Inquiry,Evasion,0.75
+Qwen3-8B-Thinking,persona_288,4,Successful Root (Vulnerability),0.75,0.268178806137933,0.24359647819600985,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,0.75
+Qwen3-8B-Thinking,persona_288,5,Successful Root (Vulnerability),0.25,0.20044873391714135,0.20039029842026898,Personal Story,Core Persuasion,Hesitance,Evasion,0.25
+Qwen3-8B-Thinking,persona_288,6,Successful Root (Vulnerability),0.0,0.34051837092280596,0.01755682373095467,Self Modeling,Action Facilitation,Self Pity,Defensive,0.0
+Qwen3-8B-Thinking,persona_288,7,Successful Root (Vulnerability),0.75,0.27644436861212307,0.25316308736423676,Logical Appeal,Core Persuasion,Personal Choice,Defensive,0.75
+Qwen3-8B-Thinking,persona_288,8,Successful Root (Vulnerability),0.25,0.2850829238948004,7.063169756526157e-05,Personal Related Inquiry,Exploration,Hesitance,Evasion,0.25
+Qwen3-8B-Thinking,persona_288,9,Successful Root (Vulnerability),0.25,0.2171001731850226,0.3909632828915415,Logical Appeal,Core Persuasion,Self-assertion,Offensive,0.25
+Qwen3-8B-Thinking,persona_113,2,Successful Root (Vulnerability),0.25,0.35933705589269826,0.24554081946711392,Emotion Appeal,Core Persuasion,Self Pity,Defensive,0.25
+Qwen3-8B-Thinking,persona_113,3,Successful Root (Vulnerability),0.0,0.24170530055567999,0.16517004013234926,Donation Information,Action Facilitation,Information Inquiry,Evasion,0.0
+Qwen3-8B-Thinking,persona_113,4,Successful Root (Vulnerability),0.75,0.2866744481551987,0.21250369194603386,Foot in the Door,Action Facilitation,Hesitance,Evasion,0.75
+Qwen3-8B-Thinking,persona_113,5,Successful Root (Vulnerability),0.0,0.3343863081643416,0.0011396762372778962,Self Modeling,Action Facilitation,Hesitance,Evasion,0.0
+Qwen3-8B-Thinking,persona_82,2,Failed Root (Rescue Potential),0.0,0.2785088508530597,0.21091697070592164,Credibility Appeal,Core Persuasion,Others,Evasion,-0.0
+Qwen3-8B-Thinking,persona_82,3,Failed Root (Rescue Potential),0.5,0.15627203846989976,0.17684599508161614,Donation Information,Action Facilitation,Information Inquiry,Evasion,-0.5
+Qwen3-8B-Thinking,persona_82,4,Failed Root (Rescue Potential),0.75,0.2581692754499971,0.1485408623994339,Personal Story,Core Persuasion,Information Inquiry,Evasion,-0.75
+Qwen3-8B-Thinking,persona_82,5,Failed Root (Rescue Potential),0.5,0.19274249376206304,0.27570312344146725,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.5
+Qwen3-8B-Thinking,persona_82,6,Failed Root (Rescue Potential),0.25,0.2906195722081528,0.29487090160260926,Foot in the Door,Action Facilitation,Others,Evasion,-0.25
+Qwen3-8B-Thinking,persona_82,7,Failed Root (Rescue Potential),0.25,0.2814235397399974,0.0007609230241710879,Task Related Inquiry,Exploration,Hesitance,Evasion,-0.25
+Qwen3-8B-Thinking,persona_82,8,Failed Root (Rescue Potential),0.0,0.36659854521833984,0.0012536658634932458,Self Modeling,Action Facilitation,Others,Evasion,-0.0
+Qwen3-8B-Thinking,persona_82,9,Failed Root (Rescue Potential),0.0,0.2511972499940583,0.000925950611321523,Task Related Inquiry,Exploration,Personal Choice,Defensive,-0.0
+Qwen3-8B-Thinking,persona_82,10,Failed Root (Rescue Potential),0.0,0.24349713376940704,0.00010672084273736966,Self Modeling,Action Facilitation,Others,Evasion,-0.0
+Qwen3-8B-Thinking,persona_80,2,Successful Root (Vulnerability),0.25,0.2694457218592484,0.20458852650179943,Emotion Appeal,Core Persuasion,Others,Evasion,0.25
+Qwen3-8B-Thinking,persona_80,3,Successful Root (Vulnerability),0.5,0.31248567509085573,0.27615642148276776,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,0.5
+Qwen3-8B-Thinking,persona_80,4,Successful Root (Vulnerability),0.5,0.2874462011233993,0.27164309053353397,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,0.5
+Qwen3-8B-Thinking,persona_80,5,Successful Root (Vulnerability),0.75,0.3482614357969187,0.28457868462414876,Foot in the Door,Action Facilitation,Hesitance,Evasion,0.75
+Qwen3-8B-Thinking,persona_80,6,Successful Root (Vulnerability),0.75,0.23911837799801877,0.2431771676461547,Self Modeling,Action Facilitation,Hesitance,Evasion,0.75
+Qwen3-8B-Thinking,persona_80,7,Successful Root (Vulnerability),0.75,0.2461532430968844,0.28705767476835553,Personal Story,Core Persuasion,Hesitance,Evasion,0.75
+Qwen3-8B-Thinking,persona_80,8,Successful Root (Vulnerability),0.5,0.34970814965682273,0.46061552473045686,Foot in the Door,Action Facilitation,Hesitance,Evasion,0.5
+Qwen3-8B-Thinking,persona_195,2,Successful Root (Vulnerability),0.0,0.2785088508530597,0.21091697070592164,Credibility Appeal,Core Persuasion,Others,Evasion,0.0
+Qwen3-8B-Thinking,persona_195,3,Successful Root (Vulnerability),0.25,0.18477059437203439,0.14628784456013003,Donation Information,Action Facilitation,Information Inquiry,Evasion,0.25
+Qwen3-8B-Thinking,persona_195,4,Successful Root (Vulnerability),0.25,0.18250841356671088,0.18176126124426575,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,0.25
+Qwen3-8B-Thinking,persona_195,5,Successful Root (Vulnerability),0.75,0.23396197903832164,0.39673393349116587,Foot in the Door,Action Facilitation,Information Inquiry,Evasion,0.75
+Qwen3-8B-Thinking,persona_195,6,Successful Root (Vulnerability),0.0,0.2525704472700087,0.19041233391181875,Personal Story,Core Persuasion,Hesitance,Evasion,0.0
+Qwen3-8B-Thinking,persona_64,2,Successful Root (Vulnerability),0.0,0.21792352920785354,0.2497984363075741,Logical Appeal,Core Persuasion,Others,Evasion,0.0
+Qwen3-8B-Thinking,persona_64,3,Successful Root (Vulnerability),0.25,0.22062806637906018,0.1830219498828948,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,0.25
+Qwen3-8B-Thinking,persona_64,4,Successful Root (Vulnerability),0.25,0.20163559927347813,0.29812331701583933,Personal Story,Core Persuasion,Information Inquiry,Evasion,0.25
+Qwen3-8B-Thinking,persona_64,5,Successful Root (Vulnerability),0.5,0.13073279158595807,0.25182832784183373,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,0.5
+Qwen3-8B-Thinking,persona_64,6,Successful Root (Vulnerability),0.25,0.24664831165226164,0.30067011379952874,Foot in the Door,Action Facilitation,Hesitance,Evasion,0.25
+Qwen3-8B-Thinking,persona_64,7,Successful Root (Vulnerability),1.0,0.308054035440665,0.24510793821698856,Personal Related Inquiry,Exploration,Personal Choice,Defensive,1.0
+Qwen3-8B-Thinking,persona_64,8,Successful Root (Vulnerability),1.0,0.18188010146495734,0.1990419808406312,Logical Appeal,Core Persuasion,Others,Evasion,1.0
+Qwen3-8B-Thinking,persona_64,9,Successful Root (Vulnerability),0.25,0.2553693707185112,0.173618474647541,Donation Information,Action Facilitation,Hesitance,Evasion,0.25
+Qwen3-8B-Thinking,persona_283,2,Successful Root (Vulnerability),0.5,0.2484132400644941,0.25810606986667206,Foot in the Door,Action Facilitation,Others,Evasion,0.5
+Qwen3-8B-Thinking,persona_283,3,Successful Root (Vulnerability),0.0,0.1399467034216328,0.0009707896685037217,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,0.0
+Qwen3-8B-Thinking,persona_283,4,Successful Root (Vulnerability),0.25,0.30220932693867925,0.3386253770296115,Self Modeling,Action Facilitation,Hesitance,Evasion,0.25
+Qwen3-8B-Thinking,persona_283,5,Successful Root (Vulnerability),0.0,0.2394040331539664,9.30369789337406e-06,Personal Story,Core Persuasion,Personal Choice,Defensive,0.0
+Qwen3-8B-Thinking,persona_283,6,Successful Root (Vulnerability),0.5,0.1786095176840746,0.1610929248921127,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,0.5
+Qwen3-8B-Thinking,persona_283,7,Successful Root (Vulnerability),0.0,0.3298585645767244,0.392931617549174,Logical Appeal,Core Persuasion,Hesitance,Evasion,0.0
+Qwen3-8B-Thinking,persona_296,2,Failed Root (Rescue Potential),0.75,0.3640953036202965,0.3134527307874144,Emotion Appeal,Core Persuasion,Others,Evasion,-0.75
+Qwen3-8B-Thinking,persona_296,3,Failed Root (Rescue Potential),1.0,0.22456673206265215,0.16807011190636595,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,-1.0
+Qwen3-8B-Thinking,persona_296,4,Failed Root (Rescue Potential),1.0,0.37861903391283047,0.23776748487721333,Foot in the Door,Action Facilitation,Self Pity,Defensive,-1.0
+Qwen3-8B-Thinking,persona_296,5,Failed Root (Rescue Potential),0.75,0.23111127272197288,0.4618086893745824,Personal Story,Core Persuasion,Hesitance,Evasion,-0.75
+Qwen3-8B-Thinking,persona_296,6,Failed Root (Rescue Potential),1.0,0.35073530301913614,0.29726933656301063,Logical Appeal,Core Persuasion,Personal Choice,Defensive,-1.0
+Qwen3-8B-Thinking,persona_296,7,Failed Root (Rescue Potential),0.75,0.3391741407862964,0.24318651521698403,Self Modeling,Action Facilitation,Counter Argument,Offensive,-0.75
+Qwen3-8B-Thinking,persona_296,8,Failed Root (Rescue Potential),0.75,0.30447065301351944,0.21412185912562273,Donation Information,Action Facilitation,Hesitance,Evasion,-0.75
+Qwen3-8B-Thinking,persona_296,9,Failed Root (Rescue Potential),0.25,0.3245233129395499,0.010236539714152199,Task Related Inquiry,Exploration,Hesitance,Evasion,-0.25
+Qwen3-8B-Thinking,persona_296,10,Failed Root (Rescue Potential),0.0,0.2937532499283535,0.0033310271422769926,Personal Story,Core Persuasion,Information Inquiry,Evasion,-0.0
+Qwen3-8B-Thinking,persona_36,2,Failed Root (Rescue Potential),0.5,0.2920950633840685,0.26523729416383046,Emotion Appeal,Core Persuasion,Others,Evasion,-0.5
+Qwen3-8B-Thinking,persona_36,3,Failed Root (Rescue Potential),0.75,0.2430002655309901,0.1733914662326084,Donation Information,Action Facilitation,Information Inquiry,Evasion,-0.75
+Qwen3-8B-Thinking,persona_36,4,Failed Root (Rescue Potential),0.75,0.2260926637366855,0.2816557942114456,Foot in the Door,Action Facilitation,Hesitance,Evasion,-0.75
+Qwen3-8B-Thinking,persona_36,5,Failed Root (Rescue Potential),1.0,0.30911646064759035,0.2776057797780963,Self Modeling,Action Facilitation,Hesitance,Evasion,-1.0
+Qwen3-8B-Thinking,persona_36,6,Failed Root (Rescue Potential),0.25,0.30664516146252563,0.15755622454187623,Personal Story,Core Persuasion,Hesitance,Evasion,-0.25
+Qwen3-8B-Thinking,persona_36,7,Failed Root (Rescue Potential),1.0,0.1407877096072192,0.1344258650789661,Credibility Appeal,Core Persuasion,Hesitance,Evasion,-1.0
+Qwen3-8B-Thinking,persona_36,8,Failed Root (Rescue Potential),0.5,0.3745821961577516,0.0030357743069178607,Personal Related Inquiry,Exploration,Hesitance,Evasion,-0.5
+Qwen3-8B-Thinking,persona_36,9,Failed Root (Rescue Potential),0.0,0.3001957156949433,0.01467116442311159,Source Related Inquiry,Exploration,Personal Choice,Defensive,-0.0
+Qwen3-8B-Thinking,persona_36,10,Failed Root (Rescue Potential),0.0,0.23465071091920983,0.00013383440565360117,Source Related Inquiry,Exploration,Information Inquiry,Evasion,-0.0
+Qwen3-8B-Thinking,persona_117,2,Failed Root (Rescue Potential),0.0,0.348502089257258,0.17629868159866155,Foot in the Door,Action Facilitation,Others,Evasion,-0.0
+Qwen3-8B-Thinking,persona_117,3,Failed Root (Rescue Potential),0.25,0.2292634754556638,0.14734766398965538,Donation Information,Action Facilitation,Information Inquiry,Evasion,-0.25
+Qwen3-8B-Thinking,persona_117,4,Failed Root (Rescue Potential),0.0,0.16781010373632618,0.20742012947477853,Credibility Appeal,Core Persuasion,Information Inquiry,Evasion,-0.0
+Qwen3-8B-Thinking,persona_117,5,Failed Root (Rescue Potential),0.25,0.3592680862917679,0.20327628280392776,Personal Story,Core Persuasion,Hesitance,Evasion,-0.25
+Qwen3-8B-Thinking,persona_117,6,Failed Root (Rescue Potential),0.25,0.24514322398175337,0.2976168428441664,Self Modeling,Action Facilitation,Hesitance,Evasion,-0.25
+Qwen3-8B-Thinking,persona_117,7,Failed Root (Rescue Potential),0.25,0.19938192641428099,0.00012718404174251008,Personal Related Inquiry,Exploration,Personal Choice,Defensive,-0.25
+Qwen3-8B-Thinking,persona_117,8,Failed Root (Rescue Potential),0.0,0.1839866596191448,6.009253070077433e-06,Logical Appeal,Core Persuasion,Personal Choice,Defensive,-0.0
+Qwen3-8B-Thinking,persona_117,9,Failed Root (Rescue Potential),0.0,0.26260203426438455,0.19693642265149633,Logical Appeal,Core Persuasion,Information Inquiry,Evasion,-0.0
+Qwen3-8B-Thinking,persona_117,10,Failed Root (Rescue Potential),0.0,0.2574652112607812,4.580608792936707e-06,Logical Appeal,Core Persuasion,Personal Choice,Defensive,-0.0

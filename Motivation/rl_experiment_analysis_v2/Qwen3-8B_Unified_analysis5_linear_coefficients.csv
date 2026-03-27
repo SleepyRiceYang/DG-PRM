@@ -1,0 +1,29 @@
+Feature,Coefficient,Reward_Type
+Turn,0.0060640797649776776,Original Advantage
+H_state,-0.000837519218217219,Original Advantage
+H_action,-0.004466362674437911,Original Advantage
+Delta_H_state,0.012816814812371265,Original Advantage
+Delta_H_action,-0.003532771817479894,Original Advantage
+V_bar_BigFive,-0.00028463781519438164,Original Advantage
+V_bar_DecisionMaking,0.001000765806748474,Original Advantage
+Sys: Action Facilitation,-0.046324366327104176,Original Advantage
+Sys: Core Persuasion,-0.011242241571881136,Original Advantage
+Sys: Exploration,-0.05950007481258879,Original Advantage
+Sys: Other,0.11706668271156212,Original Advantage
+User: Defensive,0.002658241200104527,Original Advantage
+User: Evasion,-0.0008769203152790094,Original Advantage
+User: Offensive,-0.0017813208848222585,Original Advantage
+Turn,0.002486662948854605,Temporal Curriculum Advantage
+H_state,0.007179825081404461,Temporal Curriculum Advantage
+H_action,-0.005026344522122341,Temporal Curriculum Advantage
+Delta_H_state,0.012381690937299957,Temporal Curriculum Advantage
+Delta_H_action,-0.004453736877877402,Temporal Curriculum Advantage
+V_bar_BigFive,-0.00028737479162709907,Temporal Curriculum Advantage
+V_bar_DecisionMaking,0.000671392353785568,Temporal Curriculum Advantage
+Sys: Action Facilitation,-0.05176846761517414,Temporal Curriculum Advantage
+Sys: Core Persuasion,-0.022561635455236536,Temporal Curriculum Advantage
+Sys: Exploration,-0.07653406865654144,Temporal Curriculum Advantage
+Sys: Other,0.15086417172694133,Temporal Curriculum Advantage
+User: Defensive,0.00023680417101883854,Temporal Curriculum Advantage
+User: Evasion,-0.001681974556133431,Temporal Curriculum Advantage
+User: Offensive,0.0014451703851135129,Temporal Curriculum Advantage

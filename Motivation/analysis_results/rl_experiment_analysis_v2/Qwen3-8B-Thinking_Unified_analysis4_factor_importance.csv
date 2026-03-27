@@ -1,0 +1,21 @@
+Factor,Importance,Reward_Type
+Dialogue Turn (Time),0.05058202113602082,Original Advantage
+State Entropy (H_s),0.1254607099703743,Original Advantage
+Action Entropy (H_a),0.15110132260184717,Original Advantage
+State Entropy Delta (ΔH_s),0.1216512182160542,Original Advantage
+Action Entropy Delta (ΔH_a),0.14815891600524858,Original Advantage
+Cognitive Dissonance,0.14062227200379163,Original Advantage
+Big-Five Difficulty,0.04182607718454251,Original Advantage
+Decision-Making Difficulty,0.03617348292007913,Original Advantage
+System Strategy (Specific & Category),0.13784575891928014,Original Advantage
+User Resistance (Specific & Category),0.04657822104276167,Original Advantage
+Dialogue Turn (Time),0.050377459235000394,Temporal Curriculum Advantage
+State Entropy (H_s),0.11356888025123076,Temporal Curriculum Advantage
+Action Entropy (H_a),0.13505954669410902,Temporal Curriculum Advantage
+State Entropy Delta (ΔH_s),0.1311204081910732,Temporal Curriculum Advantage
+Action Entropy Delta (ΔH_a),0.1819246501511463,Temporal Curriculum Advantage
+Cognitive Dissonance,0.13197752326086365,Temporal Curriculum Advantage
+Big-Five Difficulty,0.04299466415005176,Temporal Curriculum Advantage
+Decision-Making Difficulty,0.029881077539072303,Temporal Curriculum Advantage
+System Strategy (Specific & Category),0.13231701943501162,Temporal Curriculum Advantage
+User Resistance (Specific & Category),0.050778771092441125,Temporal Curriculum Advantage

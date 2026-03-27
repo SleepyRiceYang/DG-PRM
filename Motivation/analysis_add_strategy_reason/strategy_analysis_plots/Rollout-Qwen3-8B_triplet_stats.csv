@@ -1,0 +1,73 @@
+﻿Prev_System_Strategy,Prev_User_Resistance,Curr_System_Strategy,Total_Count,Success_Count,Win_Rate,Most_Common_Next_User_Reaction,Next_User_Reaction_Prob
+Greeting,Others,Emotion Appeal,12,3,0.25,Information Inquiry,0.9166666666666666
+Emotion Appeal,Information Inquiry,Credibility Appeal,9,3,0.3333333333333333,Information Inquiry,0.7777777777777778
+Foot in the Door,Hesitance,Foot in the Door,7,1,0.14285714285714285,Hesitance,0.8571428571428571
+Credibility Appeal,Information Inquiry,Donation Information,5,3,0.6,Hesitance,0.6
+Foot in the Door,Hesitance,Self Modeling,5,1,0.2,Hesitance,0.8
+Donation Information,Hesitance,Foot in the Door,4,3,0.75,Hesitance,0.75
+Credibility Appeal,Information Inquiry,Personal Story,4,1,0.25,Information Inquiry,0.75
+Emotion Appeal,Information Inquiry,Donation Information,4,1,0.25,Information Inquiry,0.75
+Foot in the Door,Information Inquiry,Foot in the Door,4,0,0.0,Information Inquiry,0.75
+Credibility Appeal,Hesitance,Foot in the Door,3,1,0.3333333333333333,Hesitance,0.6666666666666666
+Personal Story,Hesitance,Foot in the Door,3,1,0.3333333333333333,Hesitance,0.6666666666666666
+Credibility Appeal,Information Inquiry,Source Related Inquiry,3,1,0.3333333333333333,Hesitance,1.0
+Source Related Inquiry,Hesitance,Personal Story,3,1,0.3333333333333333,Personal Choice,0.6666666666666666
+Donation Information,Information Inquiry,Credibility Appeal,3,1,0.3333333333333333,Hesitance,0.6666666666666666
+Self Modeling,Hesitance,Task Related Inquiry,3,0,0.0,Personal Choice,0.3333333333333333
+Source Related Inquiry,Hesitance,Foot in the Door,3,0,0.0,Information Inquiry,0.3333333333333333
+Personal Story,Personal Choice,Foot in the Door,2,1,0.5,Hesitance,1.0
+Foot in the Door,Information Inquiry,Personal Story,2,1,0.5,Hesitance,0.5
+Source Related Inquiry,Hesitance,Task Related Inquiry,2,1,0.5,Hesitance,0.5
+Foot in the Door,Others,Foot in the Door,2,0,0.0,Others,1.0
+Personal Story,Information Inquiry,Source Related Inquiry,2,0,0.0,Hesitance,1.0
+Credibility Appeal,Hesitance,Personal Story,2,0,0.0,Hesitance,0.5
+Foot in the Door,Personal Choice,Self Modeling,2,0,0.0,Personal Choice,0.5
+Self Modeling,Personal Choice,Personal Related Inquiry,2,0,0.0,Personal Choice,1.0
+Personal Related Inquiry,Personal Choice,Source Related Inquiry,2,0,0.0,Personal Choice,0.5
+Greeting,Others,Foot in the Door,2,0,0.0,Information Inquiry,1.0
+Foot in the Door,Information Inquiry,Credibility Appeal,2,0,0.0,Information Inquiry,1.0
+Source Related Inquiry,Hesitance,Source Related Inquiry,2,0,0.0,Hesitance,0.5
+Personal Story,Hesitance,Donation Information,2,0,0.0,Hesitance,0.5
+Donation Information,Information Inquiry,Source Related Inquiry,1,1,1.0,Information Inquiry,1.0
+Source Related Inquiry,Information Inquiry,Personal Story,1,1,1.0,Hesitance,1.0
+Greeting,Others,Logical Appeal,1,1,1.0,Information Inquiry,1.0
+Logical Appeal,Information Inquiry,Credibility Appeal,1,1,1.0,Information Inquiry,1.0
+Greeting,Others,Personal Story,1,1,1.0,Information Inquiry,1.0
+Personal Story,Information Inquiry,Donation Information,1,1,1.0,Hesitance,1.0
+Foot in the Door,Hesitance,Credibility Appeal,1,1,1.0,Information Inquiry,1.0
+Personal Story,Hesitance,Self Modeling,1,1,1.0,Donate,1.0
+Greeting,Self Pity,Emotion Appeal,1,1,1.0,Information Inquiry,1.0
+Foot in the Door,Self Pity,Self Modeling,1,1,1.0,Self-assertion,1.0
+Self Modeling,Self-assertion,Personal Story,1,1,1.0,Hesitance,1.0
+Personal Story,Hesitance,Source Related Inquiry,1,1,1.0,Hesitance,1.0
+Task Related Inquiry,Personal Choice,Personal Related Inquiry,1,0,0.0,Hesitance,1.0
+Personal Related Inquiry,Hesitance,Foot in the Door,1,0,0.0,Others,1.0
+Personal Story,Information Inquiry,Foot in the Door,1,0,0.0,Hesitance,1.0
+Task Related Inquiry,Hesitance,Personal Story,1,0,0.0,Personal Choice,1.0
+Personal Story,Personal Choice,Emotion Appeal,1,0,0.0,Self Pity,1.0
+Source Related Inquiry,Personal Choice,Task Related Inquiry,1,0,0.0,Hesitance,1.0
+Greeting,Hesitance,Emotion Appeal,1,0,0.0,Information Inquiry,1.0
+Self Modeling,Hesitance,Personal Related Inquiry,1,0,0.0,Personal Choice,1.0
+Personal Related Inquiry,Personal Choice,Personal Story,1,0,0.0,Personal Choice,1.0
+Donation Information,Source Derogation,Credibility Appeal,1,0,0.0,Hesitance,1.0
+Credibility Appeal,Hesitance,Self Modeling,1,0,0.0,Hesitance,1.0
+Self Modeling,Hesitance,Foot in the Door,1,0,0.0,Information Inquiry,1.0
+Personal Story,Hesitance,Task Related Inquiry,1,0,0.0,Information Inquiry,1.0
+Task Related Inquiry,Information Inquiry,Source Related Inquiry,1,0,0.0,Hesitance,1.0
+Personal Story,Personal Choice,Self Modeling,1,0,0.0,Personal Choice,1.0
+Self Modeling,Personal Choice,Foot in the Door,1,0,0.0,Personal Choice,1.0
+Foot in the Door,Personal Choice,Foot in the Door,1,0,0.0,Hesitance,1.0
+Task Related Inquiry,Information Inquiry,Donation Information,1,0,0.0,Hesitance,1.0
+Donation Information,Hesitance,Personal Story,1,0,0.0,Hesitance,1.0
+Donation Information,Hesitance,Credibility Appeal,1,0,0.0,Hesitance,1.0
+Personal Story,Self Pity,Foot in the Door,1,0,0.0,Personal Choice,1.0
+Self Modeling,Hesitance,Source Related Inquiry,1,0,0.0,Hesitance,1.0
+Foot in the Door,Hesitance,Personal Story,1,0,0.0,Hesitance,1.0
+Donation Information,Hesitance,Self Modeling,1,0,0.0,Personal Choice,1.0
+Emotion Appeal,Hesitance,Foot in the Door,1,0,0.0,Self Pity,1.0
+Foot in the Door,Self Pity,Foot in the Door,1,0,0.0,Information Inquiry,1.0
+Foot in the Door,Information Inquiry,Source Related Inquiry,1,0,0.0,Hesitance,1.0
+Donation Information,Personal Choice,Credibility Appeal,1,0,0.0,Personal Choice,1.0
+Credibility Appeal,Personal Choice,Self Modeling,1,0,0.0,Hesitance,1.0
+Self Modeling,Hesitance,Self Modeling,1,0,0.0,Personal Choice,1.0
+Foot in the Door,Personal Choice,Personal Story,1,0,0.0,Hesitance,1.0

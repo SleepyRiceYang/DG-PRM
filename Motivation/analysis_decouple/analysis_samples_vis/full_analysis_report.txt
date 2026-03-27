@@ -1,0 +1,490 @@
+================================================================================
+FULL ANALYSIS REPORT: Thinking Process Entropy (N=27)
+Note: Entropy is calculated ONLY on the 'Thinking/Reasoning' phase.
+================================================================================
+
+[Sample 1/27] ID: persona_58_Turn3
+Final Strategy: Logical Appeal
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.3892   | 0.4154 | strategy                      
+2     | 1.2672   | 0.5035 | will                          
+3     | 1.2660   | 0.5121 | pressure                      
+4     | 1.2625   | 0.4702 | The                           
+5     | 1.2550   | 0.4613 | move                          
+6     | 1.2516   | 0.3387 | targeted                      
+7     | 1.2339   | 0.4585 | \n\n                          
+8     | 1.2334   | 0.5490 | help                          
+9     | 1.2090   | 0.3467 | can                           
+10    | 1.0528   | 0.5413 | introduce                     
+Context (Start): **Thought Process**: The conversation has just started with a friendly greeting ...
+================================================================================
+
+[Sample 2/27] ID: persona_58_Turn5
+Final Strategy: Donation Information
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.3038   | 0.4324 | specific                      
+2     | 1.2887   | 0.3941 | would                         
+3     | 1.1289   | 0.5462 | seeking                       
+4     | 1.0913   | 0.3910 | "                             
+5     | 1.0859   | 0.5958 | clarity                       
+6     | 1.0781   | 0.4192 | value                         
+7     | 0.9867   | 0.6025 | credibility                   
+8     | 0.9767   | 0.5721 | practical                     
+9     | 0.9246   | 0.5121 | reinforcing                   
+10    | 0.7387   | 0.6984 | donations                     
+Context (Start): **Thought Process** : The Persuadee has expressed interest in the impact of dona...
+================================================================================
+
+[Sample 3/27] ID: persona_58_Turn7
+Final Strategy: Personal Story
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.2923   | 0.4258 | address                       
+2     | 1.2287   | 0.4720 | expressed                     
+3     | 1.1909   | 0.4578 | emotional                     
+4     | 1.1568   | 0.5350 | a                             
+5     | 1.1194   | 0.5605 | Sharing                       
+6     | 1.0684   | 0.4519 | illustrating                  
+7     | 1.0174   | 0.4223 | align                         
+8     | 0.8924   | 0.5224 | emotionally                   
+9     | 0.8609   | 0.6749 | aims                          
+10    | 0.8533   | 0.5841 | and                           
+Context (Start): **Thought Process** : The Persuadee has expressed interest in understanding how ...
+================================================================================
+
+[Sample 4/27] ID: persona_58_Turn9
+Final Strategy: Credibility Appeal
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.4856   | 0.3288 | specific                      
+2     | 1.4139   | 0.2922 | enhance                       
+3     | 1.4028   | 0.2899 | evidence                      
+4     | 1.3592   | 0.3952 | validate                      
+5     | 1.3229   | 0.2685 | verification                  
+6     | 1.2648   | 0.4344 | information                   
+7     | 1.2153   | 0.4310 | most                          
+8     | 1.0821   | 0.5322 | effective                     
+9     | 1.0695   | 0.5737 | examples                      
+10    | 1.0607   | 0.4653 | \n\n                          
+Context (Start): **Thought Process** : The Persuadee has shown interest in the charity's impact b...
+================================================================================
+
+[Sample 5/27] ID: persona_58_Turn11
+Final Strategy: Foot in the Door
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.1687   | 0.4242 | approach                      
+2     | 1.0781   | 0.4192 | indicating                    
+3     | 1.0528   | 0.5413 | need                          
+4     | 1.0174   | 0.4223 | detailed                      
+5     | 1.0023   | 0.5434 | hesitation                    
+6     | 0.9837   | 0.4373 | towards                       
+7     | 0.9187   | 0.6888 | encourage                     
+8     | 0.8924   | 0.5224 | that                          
+9     | 0.8708   | 0.6624 | hesitant                      
+10    | 0.8360   | 0.5374 | requested                     
+Context (Start): **Thought Process** : The Persuadee has shown interest in the charity's impact b...
+================================================================================
+
+[Sample 6/27] ID: persona_58_Turn13
+Final Strategy: Personal Story
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.4223   | 0.2780 | personal                      
+2     | 1.3775   | 0.3636 | overcome                      
+3     | 1.3750   | 0.3319 | A                             
+4     | 1.3613   | 0.4497 | personal                      
+5     | 1.3032   | 0.3743 | impact                        
+6     | 1.3015   | 0.4417 | charity                       
+7     | 1.2864   | 0.2410 | prompting                     
+8     | 1.2587   | 0.3661 | interest                      
+9     | 1.2407   | 0.3613 | make                          
+10    | 1.0660   | 0.5373 | be                            
+Context (Start): **Thought Process** : The Persuadee has expressed interest but is still hesitant...
+================================================================================
+
+[Sample 7/27] ID: persona_58_Turn15
+Final Strategy: Credibility Appeal
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.5354   | 0.2025 | as                            
+2     | 1.4516   | 0.3938 | is                            
+3     | 1.4330   | 0.3493 | used                          
+4     | 1.4017   | 0.3924 | effectiveness                 
+5     | 1.3879   | 0.3719 | framed                        
+6     | 1.3474   | 0.4530 | can                           
+7     | 1.3303   | 0.3612 | take                          
+8     | 1.2991   | 0.4059 | ,                             
+9     | 1.2157   | 0.4370 | is                            
+10    | 1.1990   | 0.4973 | respects                      
+Context (Start): **Thought Process** : The Persuadee has shown interest in the charity's work but...
+================================================================================
+
+[Sample 8/27] ID: persona_58_Turn17
+Final Strategy: Personal Story
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.4385   | 0.3154 | has                           
+2     | 1.4257   | 0.3925 | would                         
+3     | 1.3736   | 0.3182 | make                          
+4     | 1.3605   | 0.3305 | personal                      
+5     | 1.3083   | 0.3780 | last                          
+6     | 1.2491   | 0.3876 | considering                   
+7     | 1.2459   | 0.4742 | illustrates                   
+8     | 1.2214   | 0.4986 | are                           
+9     | 1.2207   | 0.5401 | still                         
+10    | 1.1712   | 0.5312 | is                            
+Context (Start): **Thought Process** : The Persuadee has shown interest but is hesitant to commit...
+================================================================================
+
+[Sample 9/27] ID: persona_58_Turn19
+Final Strategy: Foot in the Door
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.5317   | 0.2975 | Logical                       
+2     | 1.4565   | 0.4256 | a                             
+3     | 1.3863   | 0.3479 | later                         
+4     | 1.3711   | 0.4194 | logical                       
+5     | 1.3516   | 0.4479 | empowered                     
+6     | 1.3341   | 0.2921 | making                        
+7     | 1.3226   | 0.3702 | "                             
+8     | 1.2272   | 0.5028 | acknowledge                   
+9     | 1.2141   | 0.4516 | such                          
+10    | 1.1639   | 0.5407 | undecided                     
+Context (Start): **Thought Process** : The Persuadee has consistently expressed hesitation and a ...
+================================================================================
+
+[Sample 10/27] ID: persona_13_Turn3
+Final Strategy: Logical Appeal
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.2959   | 0.4602 | importance                    
+2     | 1.1932   | 0.6147 | strategy                      
+3     | 1.0552   | 0.6192 | .                             
+4     | 1.0393   | 0.4433 | compelling                    
+5     | 1.0298   | 0.5865 | A                             
+6     | 1.0202   | 0.5065 | reasoned                      
+7     | 1.0015   | 0.6228 | introduce                     
+8     | 0.9534   | 0.7179 | provide                       
+9     | 0.9358   | 0.6179 | will                          
+10    | 0.9060   | 0.6285 | and                           
+Context (Start): **Thought Process** : The Persuader has initiated the conversation with a greeti...
+================================================================================
+
+[Sample 11/27] ID: persona_13_Turn5
+Final Strategy: Credibility Appeal
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.2955   | 0.4336 | transparency                  
+2     | 1.0272   | 0.5009 | a                             
+3     | 0.9179   | 0.5617 | address                       
+4     | 0.8309   | 0.6338 | donation                      
+5     | 0.7583   | 0.7184 | align                         
+6     | 0.7527   | 0.7845 | respond                       
+7     | 0.6871   | 0.8109 | credibility                   
+8     | 0.6854   | 0.5622 | would                         
+9     | 0.6275   | 0.6792 | concern                       
+10    | 0.6010   | 0.8079 | expressed                     
+Context (Start): **Thought Process** : The Persuadee has expressed a concern about the transparen...
+================================================================================
+
+[Sample 12/27] ID: persona_13_Turn7
+Final Strategy: Personal Story
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.2631   | 0.4042 | expressed                     
+2     | 1.1546   | 0.5443 | align                         
+3     | 1.0781   | 0.4192 | illustrates                   
+4     | 1.0684   | 0.4519 | would                         
+5     | 1.0481   | 0.4810 | build                         
+6     | 1.0272   | 0.5009 | persuade                      
+7     | 0.9517   | 0.5186 | further                       
+8     | 0.9246   | 0.5121 | and                           
+9     | 0.8871   | 0.5861 | showing                       
+10    | 0.8687   | 0.6487 | tangible                      
+Context (Start): **Thought Process** : The Persuadee has expressed interest in the impact of dona...
+================================================================================
+
+[Sample 13/27] ID: persona_13_Turn9
+Final Strategy: Donation Information
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.3840   | 0.3468 | ,                             
+2     | 1.3533   | 0.4501 | current                       
+3     | 1.2498   | 0.4778 | align                         
+4     | 1.2133   | 0.5876 | concrete                      
+5     | 1.2013   | 0.5391 | specific                      
+6     | 1.1962   | 0.3985 | looking                       
+7     | 1.1502   | 0.4043 | help                          
+8     | 1.1420   | 0.5004 | specific                      
+9     | 1.0710   | 0.5005 | goal                          
+10    | 1.0694   | 0.4338 | tangible                      
+Context (Start): **Thought Process** : The Persuadee has expressed interest in the charity's work...
+================================================================================
+
+[Sample 14/27] ID: persona_13_Turn11
+Final Strategy: Source Related Inquiry
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.3124   | 0.3003 | strategy                      
+2     | 1.2949   | 0.4888 | support                       
+3     | 1.2583   | 0.5072 | helps                         
+4     | 1.2304   | 0.4323 | overall                       
+5     | 1.1921   | 0.5347 | will                          
+6     | 1.1694   | 0.5515 | transparency                  
+7     | 1.0421   | 0.6877 | best                          
+8     | 0.9930   | 0.4842 | at                            
+9     | 0.9876   | 0.5283 | align                         
+10    | 0.9701   | 0.5616 | also                          
+Context (Start): **Thought Process** : The Persuadee has shown interest in the charity's impact a...
+================================================================================
+
+[Sample 15/27] ID: persona_13_Turn13
+Final Strategy: Donation Information
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.1322   | 0.5364 | considering                   
+2     | 1.0623   | 0.3944 | more                          
+3     | 1.0018   | 0.5580 | specific                      
+4     | 0.9423   | 0.6045 | .\n\n                         
+5     | 0.9238   | 0.7302 | request                       
+6     | 0.9059   | 0.7256 | build                         
+7     | 0.8708   | 0.6624 | appeal                        
+8     | 0.8708   | 0.6624 | next                          
+9     | 0.8123   | 0.5427 | concern                       
+10    | 0.6854   | 0.5622 | have                          
+Context (Start): **Thought Process** : The Persuadee has expressed a desire to see specific repor...
+================================================================================
+
+[Sample 16/27] ID: persona_13_Turn15
+Final Strategy: Source Related Inquiry
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.4392   | 0.3183 | provide                       
+2     | 1.3414   | 0.3143 | best                          
+3     | 1.3168   | 0.4281 | the                           
+4     | 1.3105   | 0.4727 | directed                      
+5     | 1.2379   | 0.4807 | a                             
+6     | 1.2157   | 0.4370 | specific                      
+7     | 1.1668   | 0.5470 | through                       
+8     | 1.1573   | 0.4934 | deciding                      
+9     | 1.0822   | 0.5303 | fulfilling                    
+10    | 1.0781   | 0.4192 | specific                      
+Context (Start): **Thought Process** : The conversation has progressed through various strategies...
+================================================================================
+
+[Sample 17/27] ID: persona_13_Turn17
+Final Strategy: Foot in the Door
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.3980   | 0.3605 | align                         
+2     | 1.3970   | 0.2596 | such                          
+3     | 1.3933   | 0.3373 | opens                         
+4     | 1.3780   | 0.3689 | still                         
+5     | 1.2585   | 0.4560 | gently                        
+6     | 1.2138   | 0.4684 | information                   
+7     | 1.1784   | 0.5765 | several                       
+8     | 1.1651   | 0.4991 | Save                          
+9     | 1.1236   | 0.4959 | moving                        
+10    | 1.0846   | 0.6029 | ,                             
+Context (Start): **Thought Process** : The conversation has progressed through various stages, wi...
+================================================================================
+
+[Sample 18/27] ID: persona_13_Turn19
+Final Strategy: Source Related Inquiry
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.4728   | 0.3863 | the                           
+2     | 1.4455   | 0.3200 | last                          
+3     | 1.4165   | 0.4085 | expressed                     
+4     | 1.3273   | 0.3632 | evidence                      
+5     | 1.1025   | 0.5553 | seeking                       
+6     | 1.0913   | 0.3910 | strategy                      
+7     | 1.0864   | 0.5997 | would                         
+8     | 1.0735   | 0.5163 | is                            
+9     | 1.0519   | 0.6267 | help                          
+10    | 1.0159   | 0.5918 | reports                       
+Context (Start): **Thought Process** : The Persuadee has expressed a desire to review detailed re...
+================================================================================
+
+[Sample 19/27] ID: persona_141_Turn3
+Final Strategy: Credibility Appeal
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.2980   | 0.4101 | provide                       
+2     | 1.2936   | 0.4408 | establishing                  
+3     | 1.2625   | 0.4702 | .                             
+4     | 1.2272   | 0.4962 | mix                           
+5     | 1.0529   | 0.5563 | encourage                     
+6     | 0.9501   | 0.6684 | credibility                   
+7     | 0.9001   | 0.7085 | convincing                    
+8     | 0.8854   | 0.4683 | be                            
+9     | 0.8635   | 0.6220 | .                             
+10    | 0.8316   | 0.7751 | establish                     
+Context (Start): **Thought Process** : The Persuader started with a greeting, and the Persuadee r...
+================================================================================
+
+[Sample 20/27] ID: persona_141_Turn5
+Final Strategy: Donation Information
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.2973   | 0.4858 | applications                  
+2     | 0.9423   | 0.6045 | further                       
+3     | 0.8947   | 0.7461 | is                            
+4     | 0.8687   | 0.6487 | charity                       
+5     | 0.7520   | 0.7361 | will                          
+6     | 0.6931   | 0.5000 | next                          
+7     | 0.6854   | 0.5622 | and                           
+8     | 0.6628   | 0.6225 | established                   
+9     | 0.6275   | 0.6792 | ader                          
+10    | 0.6275   | 0.6792 | impact                        
+Context (Start): **Thought Process** : The Persuader has already established credibility by menti...
+================================================================================
+
+[Sample 21/27] ID: persona_141_Turn7
+Final Strategy: Personal Story
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.2365   | 0.4846 | established                   
+2     | 1.1615   | 0.5246 | needs                         
+3     | 1.0393   | 0.4433 | seeking                       
+4     | 1.0316   | 0.6448 | make                          
+5     | 1.0242   | 0.5026 | showing                       
+6     | 0.8010   | 0.6433 | difference                    
+7     | 0.7668   | 0.6897 | is                            
+8     | 0.7668   | 0.6897 | a                             
+9     | 0.7060   | 0.8031 | a                             
+10    | 0.6931   | 0.5000 | ,                             
+Context (Start): **Thought Process** : The Persuader has already established credibility and prov...
+================================================================================
+
+[Sample 22/27] ID: persona_141_Turn9
+Final Strategy: Credibility Appeal
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.3942   | 0.3697 | strengthen                    
+2     | 1.3866   | 0.3422 | highlighting                  
+3     | 1.3188   | 0.4511 | track                         
+4     | 1.2942   | 0.4401 | \n\n                          
+5     | 1.2146   | 0.5457 | At                            
+6     | 1.2127   | 0.5618 | certifications                
+7     | 1.2068   | 0.5716 | the                           
+8     | 1.1882   | 0.4053 | reass                         
+9     | 1.1765   | 0.5048 | looking                       
+10    | 1.0593   | 0.6227 | currently                     
+Context (Start): **Thought Process**: The conversation is currently focused on transparency and a...
+================================================================================
+
+[Sample 23/27] ID: persona_141_Turn11
+Final Strategy: Foot in the Door
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.4496   | 0.3765 | still                         
+2     | 1.4386   | 0.4408 | critical                      
+3     | 1.3540   | 0.3300 | options                       
+4     | 1.2153   | 0.4310 | are                           
+5     | 1.1379   | 0.5089 | more                          
+6     | 1.0986   | 0.3333 | lower                         
+7     | 1.0481   | 0.4810 | and                           
+8     | 1.0453   | 0.6486 | low                           
+9     | 1.0415   | 0.4965 | $                             
+10    | 1.0174   | 0.4223 | psychological                 
+Context (Start): **Thought Process** : The Persuadee has shown interest in the charity and its im...
+================================================================================
+
+[Sample 24/27] ID: persona_141_Turn13
+Final Strategy: Personal Story
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.4410   | 0.4089 | more                          
+2     | 1.3976   | 0.3620 | approach                      
+3     | 1.3773   | 0.3664 | using                         
+4     | 1.3257   | 0.3713 | overcome                      
+5     | 1.3141   | 0.5021 | ,                             
+6     | 1.3134   | 0.3498 | focus                         
+7     | 1.3105   | 0.5059 | would                         
+8     | 1.2416   | 0.5079 | emotional                     
+9     | 1.1962   | 0.3985 | multiple                      
+10    | 1.1672   | 0.5641 | positive                      
+Context (Start): **Thought Process** : The Persuadee has expressed hesitation and is still unsure...
+================================================================================
+
+[Sample 25/27] ID: persona_141_Turn15
+Final Strategy: Source Related Inquiry
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.3725   | 0.4723 | ,                             
+2     | 1.3711   | 0.4696 | (                             
+3     | 1.2929   | 0.2581 | give                          
+4     | 1.2867   | 0.4359 | using                         
+5     | 1.2118   | 0.4541 | involvement                   
+6     | 1.2054   | 0.4641 | involving                     
+7     | 1.1758   | 0.5792 | the                           
+8     | 1.0921   | 0.3599 | Foot                          
+9     | 1.0876   | 0.6568 | connected                     
+10    | 1.0715   | 0.5182 | At                            
+Context (Start): **Thought Process** : The Persuadee has shown interest but remains hesitant, ind...
+================================================================================
+
+[Sample 26/27] ID: persona_141_Turn17
+Final Strategy: Foot in the Door
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.3708   | 0.4611 | starts                        
+2     | 1.3015   | 0.4444 | asking                        
+3     | 1.2993   | 0.3213 | use                           
+4     | 1.2777   | 0.4289 | interest                      
+5     | 1.2709   | 0.4842 | encourages                    
+6     | 1.2523   | 0.3222 | factual                       
+7     | 1.2084   | 0.5104 | expressed                     
+8     | 1.1692   | 0.5627 | a                             
+9     | 1.1563   | 0.5929 | which                         
+10    | 1.1084   | 0.5220 | can                           
+Context (Start): **Thought Process**: The dialogue history shows that the Persuadee has been aski...
+================================================================================
+
+[Sample 27/27] ID: persona_141_Turn19
+Final Strategy: Source Related Inquiry
+----------------------------------------------------------------------
+Rank  | Entropy  | Prob   | Token                         
+----------------------------------------------------------------------
+1     | 1.4079   | 0.4331 | At                            
+2     | 1.2582   | 0.5198 | gauge                         
+3     | 1.1908   | 0.4243 | credibility                   
+4     | 1.1777   | 0.5345 | Source                        
+5     | 1.1560   | 0.4910 | **                            
+6     | 1.1091   | 0.5966 | willing                       
+7     | 1.0481   | 0.4810 | dialogue                      
+8     | 1.0260   | 0.4658 | ,                             
+9     | 1.0250   | 0.6159 | informed                      
+10    | 0.9816   | 0.6782 | last                          
+Context (Start): **Thought Process** : The dialogue has progressed through various strategies inc...
+================================================================================

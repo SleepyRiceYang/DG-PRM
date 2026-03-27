@@ -1,0 +1,702 @@
+Pattern_Type,Pattern,Total_Count,Success_Count,Fail_Count
+Interaction (Sys->User->Sys),Foot in the Door -> Hesitance -> Foot in the Door,416,84,332
+System (Sys->Sys->Sys),Foot in the Door -> Foot in the Door -> Foot in the Door,320,41,279
+Interaction (Sys->User->Sys),Personal Story -> Hesitance -> Foot in the Door,91,31,60
+Interaction (Sys->User->Sys),Self Modeling -> Hesitance -> Foot in the Door,79,18,61
+Interaction (Sys->User->Sys),Foot in the Door -> Personal Choice -> Foot in the Door,78,5,73
+System (Sys->Sys->Sys),Personal Story -> Foot in the Door -> Foot in the Door,68,15,53
+Interaction (Sys->User->Sys),Foot in the Door -> Hesitance -> Self Modeling,67,10,57
+Interaction (Sys->User->Sys),Credibility Appeal -> Hesitance -> Foot in the Door,65,23,42
+System (Sys->Sys->Sys),Self Modeling -> Foot in the Door -> Foot in the Door,53,7,46
+System (Sys->Sys->Sys),Credibility Appeal -> Foot in the Door -> Foot in the Door,53,20,33
+System (Sys->Sys->Sys),Foot in the Door -> Self Modeling -> Foot in the Door,51,10,41
+Interaction (Sys->User->Sys),Self Modeling -> Personal Choice -> Self Modeling,50,1,49
+Interaction (Sys->User->Sys),Self Modeling -> Hesitance -> Self Modeling,48,5,43
+Interaction (Sys->User->Sys),Source Related Inquiry -> Hesitance -> Foot in the Door,47,12,35
+System (Sys->Sys->Sys),Foot in the Door -> Foot in the Door -> Self Modeling,45,5,40
+Interaction (Sys->User->Sys),Self Modeling -> Personal Choice -> Foot in the Door,41,6,35
+System (Sys->Sys->Sys),Self Modeling -> Self Modeling -> Self Modeling,38,1,37
+Interaction (Sys->User->Sys),Foot in the Door -> Hesitance -> Personal Story,37,12,25
+Interaction (Sys->User->Sys),Credibility Appeal -> Information Inquiry -> Source Related Inquiry,35,8,27
+System (Sys->Sys->Sys),Foot in the Door -> Self Modeling -> Self Modeling,34,2,32
+Interaction (Sys->User->Sys),Credibility Appeal -> Information Inquiry -> Credibility Appeal,34,11,23
+System (Sys->Sys->Sys),Foot in the Door -> Personal Story -> Foot in the Door,32,7,25
+Interaction (Sys->User->Sys),Personal Story -> Hesitance -> Self Modeling,30,6,24
+Interaction (Sys->User->Sys),Foot in the Door -> Personal Choice -> Self Modeling,30,1,29
+System (Sys->Sys->Sys),Source Related Inquiry -> Foot in the Door -> Foot in the Door,29,6,23
+Interaction (Sys->User->Sys),Credibility Appeal -> Hesitance -> Personal Story,27,9,18
+System (Sys->Sys->Sys),Self Modeling -> Self Modeling -> Foot in the Door,27,3,24
+System (Sys->Sys->Sys),Personal Story -> Foot in the Door -> Self Modeling,26,2,24
+Interaction (Sys->User->Sys),Foot in the Door -> Self Pity -> Foot in the Door,25,8,17
+System (Sys->Sys->Sys),Credibility Appeal -> Personal Story -> Foot in the Door,24,9,15
+Interaction (Sys->User->Sys),Donation Information -> Information Inquiry -> Credibility Appeal,24,7,17
+Interaction (Sys->User->Sys),Personal Story -> Information Inquiry -> Credibility Appeal,24,12,12
+System (Sys->Sys->Sys),Credibility Appeal -> Credibility Appeal -> Foot in the Door,23,5,18
+Interaction (Sys->User->Sys),Donation Information -> Hesitance -> Foot in the Door,21,14,7
+System (Sys->Sys->Sys),Personal Story -> Self Modeling -> Foot in the Door,20,3,17
+System (Sys->Sys->Sys),Credibility Appeal -> Source Related Inquiry -> Foot in the Door,19,3,16
+Interaction (Sys->User->Sys),Foot in the Door -> Information Inquiry -> Credibility Appeal,19,7,12
+System (Sys->Sys->Sys),Foot in the Door -> Foot in the Door -> Personal Story,18,2,16
+Interaction (Sys->User->Sys),Personal Story -> Personal Choice -> Foot in the Door,18,3,15
+System (Sys->Sys->Sys),Self Modeling -> Foot in the Door -> Self Modeling,18,2,16
+Interaction (Sys->User->Sys),Foot in the Door -> Others -> Foot in the Door,18,1,17
+Interaction (Sys->User->Sys),Emotion Appeal -> Hesitance -> Foot in the Door,17,7,10
+Interaction (Sys->User->Sys),Personal Related Inquiry -> Personal Choice -> Foot in the Door,16,1,15
+Interaction (Sys->User->Sys),Source Related Inquiry -> Hesitance -> Self Modeling,16,2,14
+System (Sys->Sys->Sys),Donation Information -> Foot in the Door -> Foot in the Door,16,9,7
+Interaction (Sys->User->Sys),Foot in the Door -> Self-assertion -> Foot in the Door,16,2,14
+System (Sys->Sys->Sys),Source Related Inquiry -> Personal Story -> Foot in the Door,16,6,10
+Interaction (Sys->User->Sys),Personal Story -> Hesitance -> Personal Story,15,4,11
+System (Sys->Sys->Sys),Donation Information -> Credibility Appeal -> Foot in the Door,15,4,11
+Interaction (Sys->User->Sys),Foot in the Door -> Information Inquiry -> Foot in the Door,15,2,13
+System (Sys->Sys->Sys),Personal Story -> Personal Story -> Foot in the Door,14,5,9
+Interaction (Sys->User->Sys),Logical Appeal -> Information Inquiry -> Credibility Appeal,14,4,10
+System (Sys->Sys->Sys),Personal Story -> Self Modeling -> Self Modeling,14,1,13
+Interaction (Sys->User->Sys),Credibility Appeal -> Information Inquiry -> Donation Information,14,7,7
+Interaction (Sys->User->Sys),Task Related Inquiry -> Hesitance -> Foot in the Door,14,4,10
+System (Sys->Sys->Sys),Foot in the Door -> Personal Story -> Self Modeling,14,4,10
+Interaction (Sys->User->Sys),Self Modeling -> Hesitance -> Personal Story,13,2,11
+Interaction (Sys->User->Sys),Foot in the Door -> Hesitance -> Source Related Inquiry,13,2,11
+Interaction (Sys->User->Sys),Foot in the Door -> Hesitance -> Personal Related Inquiry,13,3,10
+Interaction (Sys->User->Sys),Emotion Appeal -> Information Inquiry -> Credibility Appeal,13,5,8
+Interaction (Sys->User->Sys),Foot in the Door -> Information Inquiry -> Donation Information,12,4,8
+Interaction (Sys->User->Sys),Source Related Inquiry -> Information Inquiry -> Source Related Inquiry,12,2,10
+System (Sys->Sys->Sys),Task Related Inquiry -> Foot in the Door -> Foot in the Door,11,2,9
+System (Sys->Sys->Sys),Self Modeling -> Personal Story -> Foot in the Door,11,1,10
+System (Sys->Sys->Sys),Credibility Appeal -> Self Modeling -> Foot in the Door,11,4,7
+Interaction (Sys->User->Sys),Credibility Appeal -> Hesitance -> Self Modeling,11,4,7
+System (Sys->Sys->Sys),Emotion Appeal -> Foot in the Door -> Foot in the Door,10,3,7
+System (Sys->Sys->Sys),Personal Story -> Credibility Appeal -> Foot in the Door,10,7,3
+Interaction (Sys->User->Sys),Emotion Appeal -> Information Inquiry -> Source Related Inquiry,10,4,6
+System (Sys->Sys->Sys),Personal Related Inquiry -> Foot in the Door -> Foot in the Door,10,0,10
+System (Sys->Sys->Sys),Greeting -> Personal Story -> Credibility Appeal,10,6,4
+System (Sys->Sys->Sys),Source Related Inquiry -> Foot in the Door -> Personal Story,10,4,6
+Interaction (Sys->User->Sys),Credibility Appeal -> Information Inquiry -> Personal Story,10,2,8
+System (Sys->Sys->Sys),Credibility Appeal -> Personal Story -> Self Modeling,10,0,10
+Interaction (Sys->User->Sys),Personal Story -> Personal Choice -> Personal Story,10,1,9
+System (Sys->Sys->Sys),Credibility Appeal -> Foot in the Door -> Personal Story,10,2,8
+Interaction (Sys->User->Sys),Source Related Inquiry -> Information Inquiry -> Credibility Appeal,10,3,7
+Interaction (Sys->User->Sys),Source Related Inquiry -> Hesitance -> Personal Story,10,3,7
+Interaction (Sys->User->Sys),Source Related Inquiry -> Hesitance -> Source Related Inquiry,10,0,10
+System (Sys->Sys->Sys),Emotion Appeal -> Credibility Appeal -> Credibility Appeal,10,3,7
+System (Sys->Sys->Sys),Donation Information -> Credibility Appeal -> Personal Story,10,4,6
+System (Sys->Sys->Sys),Personal Story -> Source Related Inquiry -> Foot in the Door,9,4,5
+System (Sys->Sys->Sys),Personal Story -> Foot in the Door -> Personal Related Inquiry,9,2,7
+Interaction (Sys->User->Sys),Donation Information -> Hesitance -> Self Modeling,9,4,5
+Interaction (Sys->User->Sys),Emotion Appeal -> Information Inquiry -> Logical Appeal,9,3,6
+System (Sys->Sys->Sys),Credibility Appeal -> Source Related Inquiry -> Personal Story,9,3,6
+System (Sys->Sys->Sys),Emotion Appeal -> Credibility Appeal -> Source Related Inquiry,9,2,7
+System (Sys->Sys->Sys),Foot in the Door -> Personal Story -> Personal Story,9,2,7
+System (Sys->Sys->Sys),Greeting -> Emotion Appeal -> Logical Appeal,9,3,6
+System (Sys->Sys->Sys),Donation Information -> Personal Story -> Foot in the Door,9,2,7
+Interaction (Sys->User->Sys),Personal Related Inquiry -> Personal Choice -> Self Modeling,9,1,8
+Interaction (Sys->User->Sys),Source Related Inquiry -> Information Inquiry -> Donation Information,9,2,7
+Interaction (Sys->User->Sys),Donation Information -> Hesitance -> Personal Story,9,2,7
+Interaction (Sys->User->Sys),Personal Story -> Self Pity -> Foot in the Door,9,3,6
+System (Sys->Sys->Sys),Greeting -> Emotion Appeal -> Source Related Inquiry,9,4,5
+System (Sys->Sys->Sys),Credibility Appeal -> Source Related Inquiry -> Source Related Inquiry,9,2,7
+Interaction (Sys->User->Sys),Foot in the Door -> Personal Choice -> Personal Story,8,1,7
+System (Sys->Sys->Sys),Foot in the Door -> Personal Related Inquiry -> Foot in the Door,8,0,8
+Interaction (Sys->User->Sys),Foot in the Door -> Personal Choice -> Personal Related Inquiry,8,0,8
+System (Sys->Sys->Sys),Source Related Inquiry -> Self Modeling -> Foot in the Door,8,2,6
+Interaction (Sys->User->Sys),Source Related Inquiry -> Information Inquiry -> Personal Story,8,2,6
+Interaction (Sys->User->Sys),Personal Story -> Personal Choice -> Self Modeling,8,1,7
+System (Sys->Sys->Sys),Foot in the Door -> Foot in the Door -> Source Related Inquiry,8,0,8
+System (Sys->Sys->Sys),Foot in the Door -> Credibility Appeal -> Source Related Inquiry,8,2,6
+System (Sys->Sys->Sys),Donation Information -> Self Modeling -> Foot in the Door,8,1,7
+System (Sys->Sys->Sys),Donation Information -> Foot in the Door -> Personal Story,8,5,3
+Interaction (Sys->User->Sys),Personal Related Inquiry -> Personal Choice -> Personal Story,8,4,4
+System (Sys->Sys->Sys),Donation Information -> Credibility Appeal -> Source Related Inquiry,8,2,6
+System (Sys->Sys->Sys),Credibility Appeal -> Donation Information -> Foot in the Door,8,4,4
+System (Sys->Sys->Sys),Personal Story -> Emotion Appeal -> Foot in the Door,8,3,5
+System (Sys->Sys->Sys),Credibility Appeal -> Personal Story -> Credibility Appeal,7,3,4
+System (Sys->Sys->Sys),Donation Information -> Source Related Inquiry -> Foot in the Door,7,2,5
+System (Sys->Sys->Sys),Foot in the Door -> Credibility Appeal -> Foot in the Door,7,3,4
+System (Sys->Sys->Sys),Greeting -> Emotion Appeal -> Credibility Appeal,7,3,4
+Interaction (Sys->User->Sys),Foot in the Door -> Others -> Personal Story,7,2,5
+System (Sys->Sys->Sys),Self Modeling -> Personal Related Inquiry -> Self Modeling,7,2,5
+System (Sys->Sys->Sys),Source Related Inquiry -> Credibility Appeal -> Foot in the Door,7,3,4
+Interaction (Sys->User->Sys),Emotion Appeal -> Information Inquiry -> Donation Information,7,4,3
+Interaction (Sys->User->Sys),Donation Information -> Hesitance -> Source Related Inquiry,7,1,6
+System (Sys->Sys->Sys),Personal Story -> Personal Story -> Self Modeling,7,0,7
+System (Sys->Sys->Sys),Personal Story -> Credibility Appeal -> Credibility Appeal,7,3,4
+Interaction (Sys->User->Sys),Foot in the Door -> Hesitance -> Task Related Inquiry,7,2,5
+System (Sys->Sys->Sys),Personal Related Inquiry -> Self Modeling -> Foot in the Door,7,2,5
+System (Sys->Sys->Sys),Greeting -> Foot in the Door -> Donation Information,7,1,6
+Interaction (Sys->User->Sys),Foot in the Door -> Counter Argument -> Foot in the Door,7,2,5
+System (Sys->Sys->Sys),Credibility Appeal -> Credibility Appeal -> Personal Story,7,3,4
+System (Sys->Sys->Sys),Source Related Inquiry -> Source Related Inquiry -> Foot in the Door,7,1,6
+Interaction (Sys->User->Sys),Task Related Inquiry -> Information Inquiry -> Credibility Appeal,7,1,6
+Interaction (Sys->User->Sys),Personal Story -> Information Inquiry -> Source Related Inquiry,6,2,4
+System (Sys->Sys->Sys),Self Modeling -> Personal Related Inquiry -> Foot in the Door,6,2,4
+Interaction (Sys->User->Sys),Donation Information -> Information Inquiry -> Source Related Inquiry,6,1,5
+System (Sys->Sys->Sys),Greeting -> Emotion Appeal -> Donation Information,6,3,3
+System (Sys->Sys->Sys),Foot in the Door -> Task Related Inquiry -> Foot in the Door,6,2,4
+System (Sys->Sys->Sys),Foot in the Door -> Credibility Appeal -> Personal Story,6,2,4
+System (Sys->Sys->Sys),Donation Information -> Credibility Appeal -> Self Modeling,6,2,4
+Interaction (Sys->User->Sys),Personal Related Inquiry -> Hesitance -> Self Modeling,6,3,3
+Interaction (Sys->User->Sys),Personal Story -> Information Inquiry -> Donation Information,6,1,5
+System (Sys->Sys->Sys),Greeting -> Foot in the Door -> Credibility Appeal,6,2,4
+System (Sys->Sys->Sys),Greeting -> Emotion Appeal -> Task Related Inquiry,6,2,4
+System (Sys->Sys->Sys),Personal Related Inquiry -> Personal Story -> Foot in the Door,6,5,1
+System (Sys->Sys->Sys),Personal Related Inquiry -> Self Modeling -> Self Modeling,6,1,5
+System (Sys->Sys->Sys),Greeting -> Self Modeling -> Credibility Appeal,6,2,4
+Interaction (Sys->User->Sys),Emotion Appeal -> Information Inquiry -> Task Related Inquiry,6,2,4
+System (Sys->Sys->Sys),Personal Story -> Personal Story -> Personal Story,6,0,6
+System (Sys->Sys->Sys),Credibility Appeal -> Personal Story -> Personal Story,6,1,5
+Interaction (Sys->User->Sys),Personal Related Inquiry -> Hesitance -> Foot in the Door,6,3,3
+System (Sys->Sys->Sys),Foot in the Door -> Source Related Inquiry -> Foot in the Door,6,2,4
+Interaction (Sys->User->Sys),Self Modeling -> Information Inquiry -> Credibility Appeal,6,2,4
+System (Sys->Sys->Sys),Emotion Appeal -> Logical Appeal -> Credibility Appeal,6,2,4
+System (Sys->Sys->Sys),Credibility Appeal -> Foot in the Door -> Self Modeling,6,2,4
+System (Sys->Sys->Sys),Greeting -> Emotion Appeal -> Personal Story,5,3,2
+Interaction (Sys->User->Sys),Emotion Appeal -> Hesitance -> Personal Story,5,2,3
+Interaction (Sys->User->Sys),Donation Information -> Information Inquiry -> Donation Information,5,4,1
+Interaction (Sys->User->Sys),Foot in the Door -> Hesitance -> Credibility Appeal,5,2,3
+System (Sys->Sys->Sys),Logical Appeal -> Foot in the Door -> Foot in the Door,5,1,4
+System (Sys->Sys->Sys),Personal Story -> Credibility Appeal -> Source Related Inquiry,5,2,3
+Interaction (Sys->User->Sys),Foot in the Door -> Information Inquiry -> Personal Story,5,1,4
+System (Sys->Sys->Sys),Personal Story -> Source Related Inquiry -> Source Related Inquiry,5,0,5
+System (Sys->Sys->Sys),Personal Story -> Foot in the Door -> Personal Story,5,0,5
+System (Sys->Sys->Sys),Logical Appeal -> Credibility Appeal -> Source Related Inquiry,5,2,3
+System (Sys->Sys->Sys),Donation Information -> Credibility Appeal -> Personal Related Inquiry,5,4,1
+System (Sys->Sys->Sys),Emotion Appeal -> Credibility Appeal -> Personal Story,5,2,3
+System (Sys->Sys->Sys),Emotion Appeal -> Emotion Appeal -> Credibility Appeal,5,1,4
+System (Sys->Sys->Sys),Foot in the Door -> Donation Information -> Foot in the Door,5,3,2
+System (Sys->Sys->Sys),Emotion Appeal -> Personal Story -> Foot in the Door,5,3,2
+System (Sys->Sys->Sys),Foot in the Door -> Foot in the Door -> Personal Related Inquiry,5,0,5
+System (Sys->Sys->Sys),Foot in the Door -> Credibility Appeal -> Credibility Appeal,5,1,4
+System (Sys->Sys->Sys),Foot in the Door -> Self Modeling -> Personal Story,5,0,5
+Interaction (Sys->User->Sys),Foot in the Door -> Others -> Self Modeling,5,0,5
+System (Sys->Sys->Sys),Greeting -> Emotion Appeal -> Emotion Appeal,5,1,4
+Interaction (Sys->User->Sys),Logical Appeal -> Hesitance -> Foot in the Door,5,1,4
+System (Sys->Sys->Sys),Foot in the Door -> Personal Related Inquiry -> Personal Story,5,2,3
+System (Sys->Sys->Sys),Foot in the Door -> Self Modeling -> Personal Related Inquiry,5,2,3
+System (Sys->Sys->Sys),Foot in the Door -> Foot in the Door -> Task Related Inquiry,5,0,5
+System (Sys->Sys->Sys),Greeting -> Credibility Appeal -> Donation Information,5,3,2
+Interaction (Sys->User->Sys),Source Related Inquiry -> Information Inquiry -> Foot in the Door,5,1,4
+System (Sys->Sys->Sys),Credibility Appeal -> Donation Information -> Personal Story,5,1,4
+Interaction (Sys->User->Sys),Personal Story -> Information Inquiry -> Personal Story,5,1,4
+Interaction (Sys->User->Sys),Self Modeling -> Hesitance -> Personal Related Inquiry,5,1,4
+System (Sys->Sys->Sys),Credibility Appeal -> Source Related Inquiry -> Self Modeling,5,1,4
+System (Sys->Sys->Sys),Credibility Appeal -> Self Modeling -> Personal Story,5,1,4
+Interaction (Sys->User->Sys),Source Related Inquiry -> Hesitance -> Personal Related Inquiry,5,1,4
+Interaction (Sys->User->Sys),Source Related Inquiry -> Hesitance -> Task Related Inquiry,5,0,5
+Interaction (Sys->User->Sys),Self Modeling -> Self Pity -> Foot in the Door,5,1,4
+Interaction (Sys->User->Sys),Self Modeling -> Information Inquiry -> Foot in the Door,5,1,4
+Interaction (Sys->User->Sys),Self Modeling -> Self-assertion -> Foot in the Door,5,1,4
+Interaction (Sys->User->Sys),Self Modeling -> Personal Choice -> Personal Story,5,0,5
+Interaction (Sys->User->Sys),Credibility Appeal -> Information Inquiry -> Logical Appeal,5,2,3
+System (Sys->Sys->Sys),Source Related Inquiry -> Foot in the Door -> Self Modeling,5,0,5
+Interaction (Sys->User->Sys),Credibility Appeal -> Information Inquiry -> Task Related Inquiry,5,2,3
+Interaction (Sys->User->Sys),Credibility Appeal -> Information Inquiry -> Self Modeling,5,1,4
+Interaction (Sys->User->Sys),Credibility Appeal -> Hesitance -> Personal Related Inquiry,4,4,0
+System (Sys->Sys->Sys),Self Modeling -> Credibility Appeal -> Credibility Appeal,4,1,3
+System (Sys->Sys->Sys),Self Modeling -> Emotion Appeal -> Foot in the Door,4,0,4
+Interaction (Sys->User->Sys),Credibility Appeal -> Personal Choice -> Foot in the Door,4,1,3
+System (Sys->Sys->Sys),Emotion Appeal -> Donation Information -> Source Related Inquiry,4,1,3
+System (Sys->Sys->Sys),Emotion Appeal -> Foot in the Door -> Credibility Appeal,4,1,3
+System (Sys->Sys->Sys),Emotion Appeal -> Task Related Inquiry -> Credibility Appeal,4,1,3
+System (Sys->Sys->Sys),Personal Story -> Donation Information -> Credibility Appeal,4,1,3
+Interaction (Sys->User->Sys),Emotion Appeal -> Information Inquiry -> Personal Story,4,3,1
+System (Sys->Sys->Sys),Self Modeling -> Personal Story -> Self Modeling,4,2,2
+System (Sys->Sys->Sys),Credibility Appeal -> Donation Information -> Credibility Appeal,4,2,2
+System (Sys->Sys->Sys),Credibility Appeal -> Credibility Appeal -> Credibility Appeal,4,3,1
+System (Sys->Sys->Sys),Personal Story -> Donation Information -> Self Modeling,4,1,3
+Interaction (Sys->User->Sys),Donation Information -> Information Inquiry -> Personal Story,4,2,2
+Interaction (Sys->User->Sys),Personal Story -> Information Inquiry -> Foot in the Door,4,2,2
+System (Sys->Sys->Sys),Logical Appeal -> Credibility Appeal -> Foot in the Door,4,0,4
+System (Sys->Sys->Sys),Logical Appeal -> Credibility Appeal -> Personal Story,4,1,3
+System (Sys->Sys->Sys),Personal Related Inquiry -> Foot in the Door -> Self Modeling,4,0,4
+Interaction (Sys->User->Sys),Foot in the Door -> Hesitance -> Emotion Appeal,4,1,3
+System (Sys->Sys->Sys),Personal Story -> Personal Related Inquiry -> Foot in the Door,4,1,3
+Interaction (Sys->User->Sys),Personal Story -> Personal Choice -> Personal Related Inquiry,4,1,3
+Interaction (Sys->User->Sys),Task Related Inquiry -> Information Inquiry -> Donation Information,4,1,3
+Interaction (Sys->User->Sys),Logical Appeal -> Information Inquiry -> Donation Information,4,1,3
+System (Sys->Sys->Sys),Greeting -> Donation Information -> Credibility Appeal,4,3,1
+System (Sys->Sys->Sys),Greeting -> Greeting -> Donation Information,4,3,1
+System (Sys->Sys->Sys),Greeting -> Logical Appeal -> Credibility Appeal,4,1,3
+System (Sys->Sys->Sys),Foot in the Door -> Personal Related Inquiry -> Self Modeling,4,0,4
+System (Sys->Sys->Sys),Foot in the Door -> Credibility Appeal -> Self Modeling,4,1,3
+System (Sys->Sys->Sys),Donation Information -> Credibility Appeal -> Credibility Appeal,4,0,4
+System (Sys->Sys->Sys),Credibility Appeal -> Donation Information -> Self Modeling,4,2,2
+System (Sys->Sys->Sys),Emotion Appeal -> Source Related Inquiry -> Credibility Appeal,4,1,3
+System (Sys->Sys->Sys),Emotion Appeal -> Personal Story -> Credibility Appeal,4,2,2
+Interaction (Sys->User->Sys),Personal Story -> Hesitance -> Source Related Inquiry,4,0,4
+Interaction (Sys->User->Sys),Greeting -> Information Inquiry -> Donation Information,4,3,1
+Interaction (Sys->User->Sys),Personal Story -> Hesitance -> Personal Related Inquiry,4,2,2
+Interaction (Sys->User->Sys),Personal Story -> Hesitance -> Emotion Appeal,4,1,3
+Interaction (Sys->User->Sys),Donation Information -> Hesitance -> Emotion Appeal,4,3,1
+System (Sys->Sys->Sys),Self Modeling -> Task Related Inquiry -> Foot in the Door,4,2,2
+System (Sys->Sys->Sys),Emotion Appeal -> Foot in the Door -> Self Modeling,4,1,3
+System (Sys->Sys->Sys),Emotion Appeal -> Donation Information -> Foot in the Door,4,2,2
+System (Sys->Sys->Sys),Emotion Appeal -> Donation Information -> Credibility Appeal,4,2,2
+System (Sys->Sys->Sys),Foot in the Door -> Foot in the Door -> Credibility Appeal,4,2,2
+System (Sys->Sys->Sys),Foot in the Door -> Donation Information -> Credibility Appeal,4,0,4
+System (Sys->Sys->Sys),Donation Information -> Foot in the Door -> Personal Related Inquiry,4,0,4
+Interaction (Sys->User->Sys),Personal Related Inquiry -> Personal Choice -> Personal Related Inquiry,4,1,3
+System (Sys->Sys->Sys),Emotion Appeal -> Credibility Appeal -> Foot in the Door,4,1,3
+System (Sys->Sys->Sys),Donation Information -> Self Modeling -> Self Modeling,4,1,3
+Interaction (Sys->User->Sys),Personal Related Inquiry -> Information Inquiry -> Personal Story,4,2,2
+Interaction (Sys->User->Sys),Credibility Appeal -> Hesitance -> Emotion Appeal,3,2,1
+System (Sys->Sys->Sys),Source Related Inquiry -> Personal Story -> Source Related Inquiry,3,1,2
+System (Sys->Sys->Sys),Source Related Inquiry -> Self Modeling -> Personal Story,3,0,3
+System (Sys->Sys->Sys),Self Modeling -> Personal Related Inquiry -> Personal Related Inquiry,3,0,3
+System (Sys->Sys->Sys),Personal Story -> Foot in the Door -> Credibility Appeal,3,2,1
+System (Sys->Sys->Sys),Personal Story -> Donation Information -> Source Related Inquiry,3,0,3
+System (Sys->Sys->Sys),Personal Story -> Donation Information -> Foot in the Door,3,1,2
+Interaction (Sys->User->Sys),Donation Information -> Information Inquiry -> Self Modeling,3,0,3
+Interaction (Sys->User->Sys),Donation Information -> Information Inquiry -> Foot in the Door,3,0,3
+Interaction (Sys->User->Sys),Task Related Inquiry -> Personal Choice -> Foot in the Door,3,1,2
+Interaction (Sys->User->Sys),Emotion Appeal -> Information Inquiry -> Emotion Appeal,3,1,2
+Interaction (Sys->User->Sys),Credibility Appeal -> Hesitance -> Credibility Appeal,3,1,2
+System (Sys->Sys->Sys),Self Modeling -> Foot in the Door -> Personal Story,3,1,2
+System (Sys->Sys->Sys),Personal Story -> Task Related Inquiry -> Foot in the Door,3,0,3
+System (Sys->Sys->Sys),Source Related Inquiry -> Source Related Inquiry -> Source Related Inquiry,3,0,3
+Interaction (Sys->User->Sys),Credibility Appeal -> Hesitance -> Source Related Inquiry,3,2,1
+System (Sys->Sys->Sys),Source Related Inquiry -> Personal Story -> Self Modeling,3,1,2
+System (Sys->Sys->Sys),Source Related Inquiry -> Personal Story -> Personal Story,3,0,3
+Interaction (Sys->User->Sys),Credibility Appeal -> Information Inquiry -> Foot in the Door,3,0,3
+Interaction (Sys->User->Sys),Credibility Appeal -> Information Inquiry -> Emotion Appeal,3,1,2
+System (Sys->Sys->Sys),Greeting -> Logical Appeal -> Donation Information,3,0,3
+System (Sys->Sys->Sys),Foot in the Door -> Source Related Inquiry -> Self Modeling,3,0,3
+Interaction (Sys->User->Sys),Logical Appeal -> Hesitance -> Personal Story,3,2,1
+Interaction (Sys->User->Sys),Personal Story -> Self Pity -> Self Modeling,3,1,2
+Interaction (Sys->User->Sys),Source Related Inquiry -> Personal Choice -> Foot in the Door,3,0,3
+Interaction (Sys->User->Sys),Source Related Inquiry -> Personal Choice -> Self Modeling,3,1,2
+System (Sys->Sys->Sys),Logical Appeal -> Donation Information -> Credibility Appeal,3,1,2
+Interaction (Sys->User->Sys),Emotion Appeal -> Personal Choice -> Self Modeling,3,1,2
+Interaction (Sys->User->Sys),Source Related Inquiry -> Hesitance -> Emotion Appeal,3,2,1
+Interaction (Sys->User->Sys),Foot in the Door -> Information Inquiry -> Logical Appeal,3,0,3
+System (Sys->Sys->Sys),Personal Story -> Foot in the Door -> Source Related Inquiry,3,1,2
+System (Sys->Sys->Sys),Logical Appeal -> Credibility Appeal -> Credibility Appeal,3,1,2
+System (Sys->Sys->Sys),Personal Story -> Credibility Appeal -> Donation Information,3,3,0
+System (Sys->Sys->Sys),Credibility Appeal -> Personal Related Inquiry -> Personal Story,3,3,0
+System (Sys->Sys->Sys),Credibility Appeal -> Personal Story -> Emotion Appeal,3,2,1
+Interaction (Sys->User->Sys),Personal Story -> Personal Choice -> Emotion Appeal,3,2,1
+System (Sys->Sys->Sys),Personal Story -> Foot in the Door -> Emotion Appeal,3,1,2
+System (Sys->Sys->Sys),Personal Story -> Foot in the Door -> Task Related Inquiry,3,1,2
+Interaction (Sys->User->Sys),Foot in the Door -> Information Inquiry -> Source Related Inquiry,3,1,2
+System (Sys->Sys->Sys),Task Related Inquiry -> Personal Story -> Foot in the Door,3,1,2
+System (Sys->Sys->Sys),Source Related Inquiry -> Self Modeling -> Self Modeling,3,0,3
+System (Sys->Sys->Sys),Source Related Inquiry -> Source Related Inquiry -> Self Modeling,3,0,3
+System (Sys->Sys->Sys),Source Related Inquiry -> Personal Story -> Emotion Appeal,3,2,1
+System (Sys->Sys->Sys),Credibility Appeal -> Credibility Appeal -> Source Related Inquiry,3,0,3
+System (Sys->Sys->Sys),Credibility Appeal -> Source Related Inquiry -> Emotion Appeal,3,2,1
+System (Sys->Sys->Sys),Credibility Appeal -> Source Related Inquiry -> Donation Information,3,1,2
+System (Sys->Sys->Sys),Emotion Appeal -> Source Related Inquiry -> Donation Information,3,1,2
+System (Sys->Sys->Sys),Emotion Appeal -> Self Modeling -> Foot in the Door,3,1,2
+Interaction (Sys->User->Sys),Personal Story -> Hesitance -> Task Related Inquiry,3,0,3
+System (Sys->Sys->Sys),Foot in the Door -> Self Modeling -> Emotion Appeal,3,0,3
+System (Sys->Sys->Sys),Foot in the Door -> Source Related Inquiry -> Donation Information,3,0,3
+System (Sys->Sys->Sys),Foot in the Door -> Personal Story -> Credibility Appeal,3,1,2
+System (Sys->Sys->Sys),Emotion Appeal -> Donation Information -> Donation Information,3,3,0
+System (Sys->Sys->Sys),Foot in the Door -> Foot in the Door -> Donation Information,3,1,2
+System (Sys->Sys->Sys),Foot in the Door -> Emotion Appeal -> Self Modeling,3,0,3
+System (Sys->Sys->Sys),Credibility Appeal -> Donation Information -> Source Related Inquiry,3,1,2
+System (Sys->Sys->Sys),Credibility Appeal -> Emotion Appeal -> Personal Story,3,2,1
+System (Sys->Sys->Sys),Credibility Appeal -> Foot in the Door -> Credibility Appeal,3,1,2
+System (Sys->Sys->Sys),Emotion Appeal -> Source Related Inquiry -> Personal Story,3,2,1
+System (Sys->Sys->Sys),Foot in the Door -> Credibility Appeal -> Donation Information,3,0,3
+Interaction (Sys->User->Sys),Foot in the Door -> Self-assertion -> Self Modeling,3,0,3
+System (Sys->Sys->Sys),Foot in the Door -> Personal Story -> Source Related Inquiry,3,1,2
+System (Sys->Sys->Sys),Donation Information -> Emotion Appeal -> Foot in the Door,3,2,1
+Interaction (Sys->User->Sys),Personal Story -> Counter Argument -> Foot in the Door,3,2,1
+System (Sys->Sys->Sys),Donation Information -> Source Related Inquiry -> Personal Story,3,0,3
+System (Sys->Sys->Sys),Emotion Appeal -> Credibility Appeal -> Emotion Appeal,3,2,1
+System (Sys->Sys->Sys),Emotion Appeal -> Donation Information -> Self Modeling,3,0,3
+System (Sys->Sys->Sys),Donation Information -> Foot in the Door -> Source Related Inquiry,3,2,1
+Interaction (Sys->User->Sys),Self Modeling -> Hesitance -> Source Related Inquiry,3,0,3
+System (Sys->Sys->Sys),Emotion Appeal -> Credibility Appeal -> Logical Appeal,3,2,1
+System (Sys->Sys->Sys),Credibility Appeal -> Personal Story -> Personal Related Inquiry,3,3,0
+System (Sys->Sys->Sys),Credibility Appeal -> Personal Story -> Source Related Inquiry,3,0,3
+Interaction (Sys->User->Sys),Self Modeling -> Others -> Self Modeling,3,0,3
+Interaction (Sys->User->Sys),Self Modeling -> Personal Choice -> Personal Related Inquiry,3,1,2
+System (Sys->Sys->Sys),Credibility Appeal -> Self Modeling -> Self Modeling,3,0,3
+System (Sys->Sys->Sys),Credibility Appeal -> Self Modeling -> Source Related Inquiry,3,0,3
+System (Sys->Sys->Sys),Source Related Inquiry -> Donation Information -> Credibility Appeal,3,0,3
+Interaction (Sys->User->Sys),Self Modeling -> Personal Choice -> Source Related Inquiry,3,1,2
+System (Sys->Sys->Sys),Source Related Inquiry -> Donation Information -> Foot in the Door,3,2,1
+System (Sys->Sys->Sys),Task Related Inquiry -> Credibility Appeal -> Foot in the Door,3,1,2
+System (Sys->Sys->Sys),Self Modeling -> Source Related Inquiry -> Self Modeling,3,1,2
+System (Sys->Sys->Sys),Task Related Inquiry -> Credibility Appeal -> Personal Story,3,0,3
+Interaction (Sys->User->Sys),Donation Information -> Hesitance -> Credibility Appeal,3,1,2
+Interaction (Sys->User->Sys),Donation Information -> Hesitance -> Personal Related Inquiry,3,1,2
+Interaction (Sys->User->Sys),Greeting -> Information Inquiry -> Emotion Appeal,2,0,2
+System (Sys->Sys->Sys),Personal Story -> Personal Story -> Source Related Inquiry,2,0,2
+System (Sys->Sys->Sys),Emotion Appeal -> Task Related Inquiry -> Donation Information,2,1,1
+System (Sys->Sys->Sys),Foot in the Door -> Credibility Appeal -> Task Related Inquiry,2,0,2
+System (Sys->Sys->Sys),Foot in the Door -> Source Related Inquiry -> Credibility Appeal,2,2,0
+System (Sys->Sys->Sys),Personal Story -> Personal Related Inquiry -> Personal Story,2,1,1
+System (Sys->Sys->Sys),Personal Story -> Source Related Inquiry -> Personal Related Inquiry,2,1,1
+System (Sys->Sys->Sys),Logical Appeal -> Personal Story -> Foot in the Door,2,1,1
+System (Sys->Sys->Sys),Personal Story -> Logical Appeal -> Foot in the Door,2,1,1
+System (Sys->Sys->Sys),Emotion Appeal -> Credibility Appeal -> Task Related Inquiry,2,2,0
+System (Sys->Sys->Sys),Personal Story -> Source Related Inquiry -> Self Modeling,2,1,1
+System (Sys->Sys->Sys),Foot in the Door -> Donation Information -> Personal Story,2,0,2
+System (Sys->Sys->Sys),Personal Story -> Donation Information -> Emotion Appeal,2,2,0
+System (Sys->Sys->Sys),Foot in the Door -> Emotion Appeal -> Foot in the Door,2,1,1
+System (Sys->Sys->Sys),Personal Story -> Credibility Appeal -> Self Modeling,2,1,1
+System (Sys->Sys->Sys),Personal Story -> Credibility Appeal -> Personal Story,2,0,2
+System (Sys->Sys->Sys),Credibility Appeal -> Logical Appeal -> Credibility Appeal,2,1,1
+System (Sys->Sys->Sys),Donation Information -> Personal Related Inquiry -> Foot in the Door,2,0,2
+System (Sys->Sys->Sys),Self Modeling -> Task Related Inquiry -> Source Related Inquiry,2,0,2
+System (Sys->Sys->Sys),Donation Information -> Personal Story -> Personal Story,2,1,1
+Interaction (Sys->User->Sys),Task Related Inquiry -> Personal Choice -> Self Modeling,2,0,2
+Interaction (Sys->User->Sys),Foot in the Door -> Information Inquiry -> Emotion Appeal,2,1,1
+Interaction (Sys->User->Sys),Foot in the Door -> Information Inquiry -> Self Modeling,2,1,1
+System (Sys->Sys->Sys),Donation Information -> Self Modeling -> Personal Story,2,1,1
+System (Sys->Sys->Sys),Donation Information -> Task Related Inquiry -> Foot in the Door,2,0,2
+Interaction (Sys->User->Sys),Foot in the Door -> Personal Choice -> Task Related Inquiry,2,0,2
+Interaction (Sys->User->Sys),Foot in the Door -> Personal Choice -> Source Related Inquiry,2,0,2
+System (Sys->Sys->Sys),Personal Story -> Task Related Inquiry -> Self Modeling,2,0,2
+Interaction (Sys->User->Sys),Foot in the Door -> Personal Choice -> Emotion Appeal,2,0,2
+System (Sys->Sys->Sys),Personal Story -> Self Modeling -> Personal Related Inquiry,2,1,1
+Interaction (Sys->User->Sys),Personal Story -> Source Derogation -> Credibility Appeal,2,2,0
+System (Sys->Sys->Sys),Self Modeling -> Foot in the Door -> Personal Related Inquiry,2,0,2
+System (Sys->Sys->Sys),Personal Story -> Self Modeling -> Personal Story,2,0,2
+Interaction (Sys->User->Sys),Task Related Inquiry -> Information Inquiry -> Self Modeling,2,1,1
+System (Sys->Sys->Sys),Credibility Appeal -> Task Related Inquiry -> Personal Story,2,1,1
+System (Sys->Sys->Sys),Greeting -> Emotion Appeal -> Foot in the Door,2,0,2
+System (Sys->Sys->Sys),Greeting -> Donation Information -> Donation Information,2,1,1
+System (Sys->Sys->Sys),Emotion Appeal -> Self Modeling -> Self Modeling,2,0,2
+System (Sys->Sys->Sys),Personal Related Inquiry -> Personal Related Inquiry -> Foot in the Door,2,0,2
+System (Sys->Sys->Sys),Personal Related Inquiry -> Personal Story -> Donation Information,2,0,2
+System (Sys->Sys->Sys),Donation Information -> Credibility Appeal -> Emotion Appeal,2,1,1
+Interaction (Sys->User->Sys),Foot in the Door -> Self Pity -> Self Modeling,2,0,2
+System (Sys->Sys->Sys),Donation Information -> Donation Information -> Foot in the Door,2,2,0
+System (Sys->Sys->Sys),Personal Related Inquiry -> Source Related Inquiry -> Self Modeling,2,0,2
+System (Sys->Sys->Sys),Personal Related Inquiry -> Source Related Inquiry -> Personal Related Inquiry,2,0,2
+System (Sys->Sys->Sys),Credibility Appeal -> Logical Appeal -> Personal Story,2,1,1
+System (Sys->Sys->Sys),Personal Related Inquiry -> Source Related Inquiry -> Foot in the Door,2,1,1
+System (Sys->Sys->Sys),Credibility Appeal -> Emotion Appeal -> Foot in the Door,2,1,1
+System (Sys->Sys->Sys),Credibility Appeal -> Donation Information -> Personal Related Inquiry,2,1,1
+Interaction (Sys->User->Sys),Foot in the Door -> Information Inquiry -> Task Related Inquiry,2,0,2
+System (Sys->Sys->Sys),Personal Related Inquiry -> Source Related Inquiry -> Source Related Inquiry,2,0,2
+System (Sys->Sys->Sys),Emotion Appeal -> Donation Information -> Trust Building,2,1,1
+System (Sys->Sys->Sys),Emotion Appeal -> Foot in the Door -> Source Related Inquiry,2,0,2
+System (Sys->Sys->Sys),Greeting -> Greeting -> Emotion Appeal,2,0,2
+Interaction (Sys->User->Sys),Personal Related Inquiry -> Personal Choice -> Task Related Inquiry,2,0,2
+Interaction (Sys->User->Sys),Donation Information -> Personal Choice -> Self Modeling,2,0,2
+System (Sys->Sys->Sys),Foot in the Door -> Personal Story -> Emotion Appeal,2,0,2
+Interaction (Sys->User->Sys),Logical Appeal -> Information Inquiry -> Source Related Inquiry,2,1,1
+System (Sys->Sys->Sys),Credibility Appeal -> Task Related Inquiry -> Credibility Appeal,2,0,2
+Interaction (Sys->User->Sys),Personal Story -> Hesitance -> Credibility Appeal,2,2,0
+System (Sys->Sys->Sys),Greeting -> Foot in the Door -> Source Related Inquiry,2,1,1
+System (Sys->Sys->Sys),Emotion Appeal -> Logical Appeal -> Foot in the Door,2,0,2
+Interaction (Sys->User->Sys),Foot in the Door -> Self Pity -> Source Related Inquiry,2,1,1
+System (Sys->Sys->Sys),Self Modeling -> Personal Related Inquiry -> Task Related Inquiry,2,0,2
+Interaction (Sys->User->Sys),Donation Information -> Information Inquiry -> Logical Appeal,2,1,1
+System (Sys->Sys->Sys),Greeting -> Foot in the Door -> Personal Story,2,1,1
+System (Sys->Sys->Sys),Greeting -> Foot in the Door -> Logical Appeal,2,0,2
+System (Sys->Sys->Sys),Personal Related Inquiry -> Personal Related Inquiry -> Self Modeling,2,1,1
+Interaction (Sys->User->Sys),Task Related Inquiry -> Hesitance -> Source Related Inquiry,2,0,2
+System (Sys->Sys->Sys),Source Related Inquiry -> Task Related Inquiry -> Foot in the Door,2,0,2
+Interaction (Sys->User->Sys),Personal Story -> Information Inquiry -> Logical Appeal,2,1,1
+Interaction (Sys->User->Sys),Credibility Appeal -> Personal Choice -> Credibility Appeal,2,0,2
+System (Sys->Sys->Sys),Source Related Inquiry -> Emotion Appeal -> Foot in the Door,2,1,1
+Interaction (Sys->User->Sys),Emotion Appeal -> Hesitance -> Emotion Appeal,2,0,2
+Interaction (Sys->User->Sys),Personal Story -> Self Pity -> Emotion Appeal,2,1,1
+Interaction (Sys->User->Sys),Source Related Inquiry -> Hesitance -> Credibility Appeal,2,0,2
+Interaction (Sys->User->Sys),Personal Story -> Personal Choice -> Source Related Inquiry,2,1,1
+Interaction (Sys->User->Sys),Self Modeling -> Self-assertion -> Self Modeling,2,0,2
+System (Sys->Sys->Sys),Self Modeling -> Task Related Inquiry -> Self Modeling,2,1,1
+System (Sys->Sys->Sys),Greeting -> Logical Appeal -> Personal Story,2,2,0
+System (Sys->Sys->Sys),Source Related Inquiry -> Donation Information -> Personal Story,2,0,2
+System (Sys->Sys->Sys),Trust Building -> Personal Story -> Foot in the Door,2,1,1
+System (Sys->Sys->Sys),Credibility Appeal -> Self Modeling -> Personal Related Inquiry,2,0,2
+System (Sys->Sys->Sys),Credibility Appeal -> Personal Story -> Task Related Inquiry,2,0,2
+System (Sys->Sys->Sys),Source Related Inquiry -> Source Related Inquiry -> Donation Information,2,1,1
+System (Sys->Sys->Sys),Task Related Inquiry -> Foot in the Door -> Self Modeling,2,0,2
+Interaction (Sys->User->Sys),Self Modeling -> Personal Choice -> Emotion Appeal,2,0,2
+Interaction (Sys->User->Sys),Self Modeling -> Others -> Foot in the Door,2,0,2
+System (Sys->Sys->Sys),Foot in the Door -> Source Related Inquiry -> Source Related Inquiry,2,0,2
+System (Sys->Sys->Sys),Source Related Inquiry -> Foot in the Door -> Personal Related Inquiry,2,0,2
+Interaction (Sys->User->Sys),Credibility Appeal -> Personal Choice -> Personal Story,2,1,1
+Interaction (Sys->User->Sys),Emotion Appeal -> Personal Choice -> Foot in the Door,2,0,2
+System (Sys->Sys->Sys),Source Related Inquiry -> Source Related Inquiry -> Credibility Appeal,2,0,2
+System (Sys->Sys->Sys),Emotion Appeal -> Credibility Appeal -> Self Modeling,2,1,1
+Interaction (Sys->User->Sys),Emotion Appeal -> Hesitance -> Self Modeling,2,0,2
+System (Sys->Sys->Sys),Source Related Inquiry -> Credibility Appeal -> Personal Story,2,0,2
+Interaction (Sys->User->Sys),Source Related Inquiry -> Personal Choice -> Personal Related Inquiry,2,0,2
+Interaction (Sys->User->Sys),Trust Building -> Hesitance -> Personal Story,2,1,1
+System (Sys->Sys->Sys),Task Related Inquiry -> Source Related Inquiry -> Foot in the Door,2,0,2
+System (Sys->Sys->Sys),Credibility Appeal -> Credibility Appeal -> Self Modeling,2,1,1
+System (Sys->Sys->Sys),Greeting -> Personal Story -> Emotion Appeal,2,1,1
+System (Sys->Sys->Sys),Donation Information -> Foot in the Door -> Credibility Appeal,2,1,1
+System (Sys->Sys->Sys),Task Related Inquiry -> Self Modeling -> Foot in the Door,2,1,1
+System (Sys->Sys->Sys),Credibility Appeal -> Donation Information -> Emotion Appeal,2,1,1
+System (Sys->Sys->Sys),Donation Information -> Donation Information -> Personal Story,2,2,0
+System (Sys->Sys->Sys),Source Related Inquiry -> Personal Related Inquiry -> Foot in the Door,2,1,1
+Interaction (Sys->User->Sys),Task Related Inquiry -> Hesitance -> Self Modeling,2,0,2
+System (Sys->Sys->Sys),Source Related Inquiry -> Personal Story -> Personal Related Inquiry,2,1,1
+System (Sys->Sys->Sys),Task Related Inquiry -> Donation Information -> Personal Story,2,1,1
+Interaction (Sys->User->Sys),Task Related Inquiry -> Information Inquiry -> Foot in the Door,2,0,2
+Interaction (Sys->User->Sys),Emotion Appeal -> Personal Choice -> Personal Story,2,2,0
+System (Sys->Sys->Sys),Self Modeling -> Source Related Inquiry -> Credibility Appeal,2,0,2
+Interaction (Sys->User->Sys),Self Modeling -> Self Pity -> Self Modeling,2,0,2
+System (Sys->Sys->Sys),Self Modeling -> Personal Story -> Personal Story,2,0,2
+Interaction (Sys->User->Sys),Emotion Appeal -> Self Pity -> Foot in the Door,2,0,2
+System (Sys->Sys->Sys),Personal Related Inquiry -> Personal Story -> Self Modeling,2,0,2
+Interaction (Sys->User->Sys),Donation Information -> Source Derogation -> Credibility Appeal,2,1,1
+Interaction (Sys->User->Sys),Emotion Appeal -> Counter Argument -> Foot in the Door,2,1,1
+System (Sys->Sys->Sys),Logical Appeal -> Credibility Appeal -> Logical Appeal,1,0,1
+System (Sys->Sys->Sys),Logical Appeal -> Credibility Appeal -> Emotion Appeal,1,0,1
+System (Sys->Sys->Sys),Greeting -> Self Modeling -> Personal Story,1,0,1
+System (Sys->Sys->Sys),Personal Related Inquiry -> Personal Story -> Credibility Appeal,1,1,0
+System (Sys->Sys->Sys),Personal Related Inquiry -> Personal Story -> Personal Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Personal Related Inquiry -> Personal Story -> Emotion Appeal,1,0,1
+System (Sys->Sys->Sys),Greeting -> Self Modeling -> Logical Appeal,1,0,1
+Interaction (Sys->User->Sys),Personal Story -> Others -> Emotion Appeal,1,1,0
+System (Sys->Sys->Sys),Greeting -> Self Modeling -> Emotion Appeal,1,1,0
+Interaction (Sys->User->Sys),Personal Story -> Information Inquiry -> Self Modeling,1,0,1
+Interaction (Sys->User->Sys),Source Related Inquiry -> Personal Choice -> Personal Story,1,0,1
+Interaction (Sys->User->Sys),Source Related Inquiry -> Personal Choice -> Source Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Source Related Inquiry -> Others -> Donation Information,1,1,0
+System (Sys->Sys->Sys),Personal Related Inquiry -> Personal Story -> Personal Story,1,1,0
+System (Sys->Sys->Sys),Personal Story -> Self Modeling -> Emotion Appeal,1,0,1
+Interaction (Sys->User->Sys),Source Related Inquiry -> Hesitance -> Donation Information,1,0,1
+Interaction (Sys->User->Sys),Task Related Inquiry -> Information Inquiry -> Evidence Appeal,1,1,0
+System (Sys->Sys->Sys),Personal Story -> Self Modeling -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Credibility Appeal -> Personal Story -> Donation Information,1,0,1
+System (Sys->Sys->Sys),Personal Story -> Source Related Inquiry -> Personal Story,1,0,1
+System (Sys->Sys->Sys),Credibility Appeal -> Personal Related Inquiry -> Self Modeling,1,0,1
+System (Sys->Sys->Sys),Greeting -> Self Modeling -> Donation Information,1,0,1
+Interaction (Sys->User->Sys),Personal Story -> Personal Choice -> Donation Information,1,0,1
+System (Sys->Sys->Sys),Logical Appeal -> Source Related Inquiry -> Foot in the Door,1,0,1
+System (Sys->Sys->Sys),Logical Appeal -> Source Related Inquiry -> Personal Story,1,1,0
+System (Sys->Sys->Sys),Personal Related Inquiry -> Emotion Appeal -> Personal Story,1,1,0
+System (Sys->Sys->Sys),Personal Related Inquiry -> Emotion Appeal -> Self Modeling,1,0,1
+Interaction (Sys->User->Sys),Personal Story -> Personal Choice -> Credibility Appeal,1,0,1
+Interaction (Sys->User->Sys),Foot in the Door -> Counter Argument -> Personal Story,1,0,1
+Interaction (Sys->User->Sys),Foot in the Door -> Counter Argument -> Self Modeling,1,0,1
+Interaction (Sys->User->Sys),Foot in the Door -> Donate -> Foot in the Door,1,0,1
+Interaction (Sys->User->Sys),Personal Story -> Others -> Personal Story,1,0,1
+System (Sys->Sys->Sys),Greeting -> Logical Appeal -> Logical Appeal,1,0,1
+System (Sys->Sys->Sys),Logical Appeal -> Self Modeling -> Self Modeling,1,0,1
+Interaction (Sys->User->Sys),Credibility Appeal -> Information Inquiry -> Transparency and Trust,1,0,1
+Interaction (Sys->User->Sys),Credibility Appeal -> Information Inquiry -> Trust Building,1,0,1
+Interaction (Sys->User->Sys),Credibility Appeal -> Others -> Personal Story,1,1,0
+System (Sys->Sys->Sys),Source Related Inquiry -> Personal Story -> Donation Information,1,0,1
+System (Sys->Sys->Sys),Source Related Inquiry -> Personal Related Inquiry -> Self Modeling,1,0,1
+System (Sys->Sys->Sys),Self Modeling -> Task Related Inquiry -> Personal Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Emotion Appeal -> Hesitance -> Credibility Appeal,1,1,0
+System (Sys->Sys->Sys),Personal Story -> Emotion Appeal -> Credibility Appeal,1,1,0
+System (Sys->Sys->Sys),Self Modeling -> Personal Story -> Personal Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Self Modeling -> Personal Story -> Donation Information,1,0,1
+Interaction (Sys->User->Sys),Task Related Inquiry -> Information Inquiry -> Personal Story,1,1,0
+System (Sys->Sys->Sys),Credibility Appeal -> Credibility Appeal -> Donation Information,1,0,1
+Interaction (Sys->User->Sys),Trust Building -> Hesitance -> Foot in the Door,1,0,1
+Interaction (Sys->User->Sys),Emotion Appeal -> Hesitance -> Personal Related Inquiry,1,1,0
+System (Sys->Sys->Sys),Self Modeling -> Emotion Appeal -> Donation Information,1,1,0
+System (Sys->Sys->Sys),Self Modeling -> Donation Information -> Credibility Appeal,1,0,1
+Interaction (Sys->User->Sys),Donation Information -> Self Pity -> Foot in the Door,1,0,1
+System (Sys->Sys->Sys),Task Related Inquiry -> Source Related Inquiry -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Task Related Inquiry -> Self Modeling -> Self Modeling,1,0,1
+System (Sys->Sys->Sys),Task Related Inquiry -> Personal Story -> Self Modeling,1,0,1
+System (Sys->Sys->Sys),Self Modeling -> Credibility Appeal -> Personal Story,1,1,0
+System (Sys->Sys->Sys),Self Modeling -> Credibility Appeal -> Logical Appeal,1,0,1
+System (Sys->Sys->Sys),Task Related Inquiry -> Personal Story -> Personal Story,1,0,1
+System (Sys->Sys->Sys),Task Related Inquiry -> Personal Story -> Personal Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Task Related Inquiry -> Personal Related Inquiry -> Personal Story,1,0,1
+System (Sys->Sys->Sys),Self Modeling -> Task Related Inquiry -> Evidence Appeal,1,1,0
+System (Sys->Sys->Sys),Task Related Inquiry -> Donation Information -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Source Related Inquiry -> Personal Related Inquiry -> Personal Story,1,0,1
+System (Sys->Sys->Sys),Trust Building -> Foot in the Door -> Personal Story,1,0,1
+System (Sys->Sys->Sys),Source Related Inquiry -> Source Related Inquiry -> Task Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Credibility Appeal -> Personal Choice -> Personal Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Source Related Inquiry -> Source Related Inquiry -> Personal Story,1,0,1
+System (Sys->Sys->Sys),Source Related Inquiry -> Source Related Inquiry -> Personal Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Credibility Appeal -> Personal Choice -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Task Related Inquiry -> Evidence Appeal -> Self Modeling,1,1,0
+System (Sys->Sys->Sys),Self Modeling -> Foot in the Door -> Task Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Donation Information -> Personal Choice -> Source Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Donation Information -> Personal Choice -> Personal Story,1,0,1
+Interaction (Sys->User->Sys),Donation Information -> Personal Choice -> Personal Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Donation Information -> Information Inquiry -> Trust Building,1,0,1
+Interaction (Sys->User->Sys),Donation Information -> Information Inquiry -> Task Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Personal Story -> Donation Information -> Personal Story,1,0,1
+System (Sys->Sys->Sys),Self Modeling -> Personal Story -> Credibility Appeal,1,0,1
+Interaction (Sys->User->Sys),Transparency and Trust -> Hesitance -> Foot in the Door,1,0,1
+Interaction (Sys->User->Sys),Donation Information -> Hesitance -> Trust Building,1,1,0
+Interaction (Sys->User->Sys),Donation Information -> Hesitance -> Task Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Self Modeling -> Personal Related Inquiry -> Emotion Appeal,1,0,1
+System (Sys->Sys->Sys),Self Modeling -> Logical Appeal -> Credibility Appeal,1,0,1
+System (Sys->Sys->Sys),Personal Related Inquiry -> Foot in the Door -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Personal Related Inquiry -> Task Related Inquiry -> Self Modeling,1,0,1
+System (Sys->Sys->Sys),Personal Related Inquiry -> Task Related Inquiry -> Foot in the Door,1,0,1
+System (Sys->Sys->Sys),Logical Appeal -> Personal Story -> Self Modeling,1,1,0
+Interaction (Sys->User->Sys),Donation Information -> Information Inquiry -> Emotion Appeal,1,1,0
+Interaction (Sys->User->Sys),Task Related Inquiry -> Others -> Source Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Task Related Inquiry -> Information Inquiry -> Task Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Task Related Inquiry -> Information Inquiry -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Source Related Inquiry -> Foot in the Door -> Task Related Inquiry,1,1,0
+System (Sys->Sys->Sys),Personal Story -> Task Related Inquiry -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Personal Story -> Task Related Inquiry -> Donation Information,1,0,1
+System (Sys->Sys->Sys),Self Modeling -> Foot in the Door -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Self Modeling -> Foot in the Door -> Logical Appeal,1,0,1
+System (Sys->Sys->Sys),Greeting -> Personal Story -> Source Related Inquiry,1,1,0
+System (Sys->Sys->Sys),Personal Story -> Personal Story -> Credibility Appeal,1,1,0
+System (Sys->Sys->Sys),Personal Story -> Personal Related Inquiry -> Self Modeling,1,1,0
+System (Sys->Sys->Sys),Personal Story -> Personal Related Inquiry -> Personal Related Inquiry,1,1,0
+System (Sys->Sys->Sys),Personal Story -> Source Related Inquiry -> Task Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Personal Story -> Donation Information -> Personal Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Personal Story -> Foot in the Door -> Donation Information,1,1,0
+System (Sys->Sys->Sys),Personal Story -> Emotion Appeal -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Personal Story -> Emotion Appeal -> Self Modeling,1,1,0
+System (Sys->Sys->Sys),Self Modeling -> Foot in the Door -> Emotion Appeal,1,0,1
+System (Sys->Sys->Sys),Donation Information -> Source Related Inquiry -> Self Modeling,1,0,1
+System (Sys->Sys->Sys),Donation Information -> Source Related Inquiry -> Credibility Appeal,1,0,1
+System (Sys->Sys->Sys),Donation Information -> Self Modeling -> Task Related Inquiry,1,1,0
+System (Sys->Sys->Sys),Donation Information -> Self Modeling -> Source Related Inquiry,1,1,0
+System (Sys->Sys->Sys),Emotion Appeal -> Credibility Appeal -> Donation Information,1,0,1
+System (Sys->Sys->Sys),Donation Information -> Personal Story -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Donation Information -> Personal Story -> Self Modeling,1,0,1
+System (Sys->Sys->Sys),Donation Information -> Personal Story -> Credibility Appeal,1,1,0
+System (Sys->Sys->Sys),Logical Appeal -> Personal Story -> Credibility Appeal,1,1,0
+System (Sys->Sys->Sys),Donation Information -> Logical Appeal -> Source Related Inquiry,1,1,0
+System (Sys->Sys->Sys),Donation Information -> Logical Appeal -> Personal Story,1,0,1
+Interaction (Sys->User->Sys),Personal Related Inquiry -> Others -> Self Modeling,1,0,1
+Interaction (Sys->User->Sys),Personal Related Inquiry -> Others -> Personal Story,1,1,0
+Interaction (Sys->User->Sys),Personal Related Inquiry -> Others -> Emotion Appeal,1,1,0
+System (Sys->Sys->Sys),Donation Information -> Foot in the Door -> Task Related Inquiry,1,1,0
+System (Sys->Sys->Sys),Donation Information -> Foot in the Door -> Emotion Appeal,1,0,1
+System (Sys->Sys->Sys),Donation Information -> Emotion Appeal -> Credibility Appeal,1,1,0
+System (Sys->Sys->Sys),Task Related Inquiry -> Donation Information -> Self Modeling,1,0,1
+System (Sys->Sys->Sys),Donation Information -> Personal Related Inquiry -> Self Modeling,1,1,0
+Interaction (Sys->User->Sys),Personal Related Inquiry -> Information Inquiry -> Self Modeling,1,1,0
+Interaction (Sys->User->Sys),Personal Related Inquiry -> Counter Argument -> Foot in the Door,1,0,1
+System (Sys->Sys->Sys),Foot in the Door -> Emotion Appeal -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Foot in the Door -> Donation Information -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Foot in the Door -> Donation Information -> Self Modeling,1,1,0
+System (Sys->Sys->Sys),Emotion Appeal -> Donation Information -> Logical Appeal,1,1,0
+System (Sys->Sys->Sys),Emotion Appeal -> Donation Information -> Emotion Appeal,1,1,0
+System (Sys->Sys->Sys),Credibility Appeal -> Logical Appeal -> Foot in the Door,1,0,1
+System (Sys->Sys->Sys),Donation Information -> Source Related Inquiry -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Credibility Appeal -> Foot in the Door -> Emotion Appeal,1,1,0
+System (Sys->Sys->Sys),Credibility Appeal -> Foot in the Door -> Donation Information,1,1,0
+System (Sys->Sys->Sys),Foot in the Door -> Credibility Appeal -> Transparency and Trust,1,0,1
+System (Sys->Sys->Sys),Donation Information -> Trust Building -> Personal Story,1,1,0
+System (Sys->Sys->Sys),Donation Information -> Trust Building -> Foot in the Door,1,0,1
+Interaction (Sys->User->Sys),Self Modeling -> Hesitance -> Task Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Self Modeling -> Hesitance -> Emotion Appeal,1,0,1
+Interaction (Sys->User->Sys),Personal Story -> Self-assertion -> Self Modeling,1,0,1
+Interaction (Sys->User->Sys),Personal Story -> Self-assertion -> Personal Related Inquiry,1,1,0
+System (Sys->Sys->Sys),Credibility Appeal -> Foot in the Door -> Personal Related Inquiry,1,1,0
+System (Sys->Sys->Sys),Source Related Inquiry -> Foot in the Door -> Emotion Appeal,1,0,1
+System (Sys->Sys->Sys),Source Related Inquiry -> Foot in the Door -> Credibility Appeal,1,0,1
+System (Sys->Sys->Sys),Source Related Inquiry -> Emotion Appeal -> Personal Story,1,1,0
+System (Sys->Sys->Sys),Source Related Inquiry -> Donation Information -> Source Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Donation Information -> Counter Argument -> Foot in the Door,1,1,0
+Interaction (Sys->User->Sys),Credibility Appeal -> Source Derogation -> Self Modeling,1,1,0
+Interaction (Sys->User->Sys),Credibility Appeal -> Source Derogation -> Credibility Appeal,1,0,1
+Interaction (Sys->User->Sys),Credibility Appeal -> Self Pity -> Foot in the Door,1,0,1
+System (Sys->Sys->Sys),Task Related Inquiry -> Donation Information -> Personal Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Transparency and Trust -> Foot in the Door -> Foot in the Door,1,0,1
+Interaction (Sys->User->Sys),Personal Story -> Self Pity -> Task Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Self Modeling -> Source Related Inquiry -> Personal Story,1,0,1
+System (Sys->Sys->Sys),Self Modeling -> Source Related Inquiry -> Personal Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Self Modeling -> Source Related Inquiry -> Foot in the Door,1,0,1
+System (Sys->Sys->Sys),Self Modeling -> Self Modeling -> Personal Story,1,0,1
+System (Sys->Sys->Sys),Self Modeling -> Personal Story -> Task Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Source Related Inquiry -> Credibility Appeal -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Source Related Inquiry -> Credibility Appeal -> Credibility Appeal,1,0,1
+System (Sys->Sys->Sys),Personal Story -> Task Related Inquiry -> Task Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Task Related Inquiry -> Donation Information -> Foot in the Door,1,1,0
+System (Sys->Sys->Sys),Task Related Inquiry -> Donation Information -> Credibility Appeal,1,0,1
+System (Sys->Sys->Sys),Task Related Inquiry -> Credibility Appeal -> Self Modeling,1,0,1
+System (Sys->Sys->Sys),Self Modeling -> Source Related Inquiry -> Task Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Self Modeling -> Self-assertion -> Emotion Appeal,1,0,1
+Interaction (Sys->User->Sys),Self Modeling -> Personal Choice -> Task Related Inquiry,1,1,0
+System (Sys->Sys->Sys),Task Related Inquiry -> Credibility Appeal -> Credibility Appeal,1,0,1
+System (Sys->Sys->Sys),Source Related Inquiry -> Task Related Inquiry -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Source Related Inquiry -> Task Related Inquiry -> Credibility Appeal,1,0,1
+System (Sys->Sys->Sys),Source Related Inquiry -> Foot in the Door -> Source Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Self Modeling -> Information Inquiry -> Self Modeling,1,0,1
+Interaction (Sys->User->Sys),Self Modeling -> Information Inquiry -> Personal Story,1,0,1
+Interaction (Sys->User->Sys),Self Modeling -> Information Inquiry -> Logical Appeal,1,0,1
+Interaction (Sys->User->Sys),Self Modeling -> Information Inquiry -> Emotion Appeal,1,1,0
+Interaction (Sys->User->Sys),Source Related Inquiry -> Counter Argument -> Personal Story,1,1,0
+Interaction (Sys->User->Sys),Self Modeling -> Self-assertion -> Personal Related Inquiry,1,1,0
+Interaction (Sys->User->Sys),Personal Story -> Self Pity -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Credibility Appeal -> Personal Story -> Logical Appeal,1,0,1
+Interaction (Sys->User->Sys),Self Modeling -> Information Inquiry -> Donation Information,1,0,1
+System (Sys->Sys->Sys),Source Related Inquiry -> Donation Information -> Self Modeling,1,0,1
+Interaction (Sys->User->Sys),Evidence Appeal -> Hesitance -> Self Modeling,1,1,0
+Interaction (Sys->User->Sys),Emotion Appeal -> Source Derogation -> Credibility Appeal,1,0,1
+Interaction (Sys->User->Sys),Emotion Appeal -> Personal Choice -> Source Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Task Related Inquiry -> Hesitance -> Personal Story,1,0,1
+Interaction (Sys->User->Sys),Task Related Inquiry -> Hesitance -> Personal Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Task Related Inquiry -> Hesitance -> Credibility Appeal,1,0,1
+System (Sys->Sys->Sys),Logical Appeal -> Logical Appeal -> Credibility Appeal,1,0,1
+System (Sys->Sys->Sys),Logical Appeal -> Foot in the Door -> Credibility Appeal,1,0,1
+System (Sys->Sys->Sys),Emotion Appeal -> Donation Information -> Task Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Foot in the Door -> Self Pity -> Donation Information,1,0,1
+System (Sys->Sys->Sys),Foot in the Door -> Source Related Inquiry -> Personal Story,1,0,1
+Interaction (Sys->User->Sys),Greeting -> Information Inquiry -> Logical Appeal,1,0,1
+System (Sys->Sys->Sys),Foot in the Door -> Foot in the Door -> Emotion Appeal,1,0,1
+System (Sys->Sys->Sys),Foot in the Door -> Self Modeling -> Task Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Foot in the Door -> Self Modeling -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Foot in the Door -> Personal Story -> Task Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Foot in the Door -> Personal Story -> Personal Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Foot in the Door -> Self Pity -> Personal Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Foot in the Door -> Self Pity -> Emotion Appeal,1,0,1
+System (Sys->Sys->Sys),Greeting -> Personal Story -> Logical Appeal,1,1,0
+System (Sys->Sys->Sys),Greeting -> Personal Story -> Foot in the Door,1,0,1
+System (Sys->Sys->Sys),Greeting -> Personal Story -> Donation Information,1,0,1
+System (Sys->Sys->Sys),Greeting -> Credibility Appeal -> Credibility Appeal,1,0,1
+System (Sys->Sys->Sys),Foot in the Door -> Task Related Inquiry -> Self Modeling,1,0,1
+System (Sys->Sys->Sys),Foot in the Door -> Task Related Inquiry -> Donation Information,1,0,1
+System (Sys->Sys->Sys),Foot in the Door -> Task Related Inquiry -> Credibility Appeal,1,0,1
+System (Sys->Sys->Sys),Foot in the Door -> Source Related Inquiry -> Task Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Greeting -> Greeting -> Credibility Appeal,1,0,1
+System (Sys->Sys->Sys),Logical Appeal -> Credibility Appeal -> Trust Building,1,0,1
+System (Sys->Sys->Sys),Logical Appeal -> Personal Story -> Personal Story,1,0,1
+Interaction (Sys->User->Sys),Logical Appeal -> Information Inquiry -> Personal Story,1,1,0
+Interaction (Sys->User->Sys),Logical Appeal -> Information Inquiry -> Logical Appeal,1,0,1
+Interaction (Sys->User->Sys),Logical Appeal -> Information Inquiry -> Emotion Appeal,1,0,1
+Interaction (Sys->User->Sys),Logical Appeal -> Hesitance -> Self Modeling,1,0,1
+Interaction (Sys->User->Sys),Greeting -> Others -> Credibility Appeal,1,0,1
+Interaction (Sys->User->Sys),Greeting -> Information Inquiry -> Personal Story,1,0,1
+System (Sys->Sys->Sys),Logical Appeal -> Emotion Appeal -> Personal Story,1,0,1
+System (Sys->Sys->Sys),Logical Appeal -> Donation Information -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Greeting -> Foot in the Door -> Task Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Emotion Appeal -> Personal Story -> Personal Story,1,1,0
+System (Sys->Sys->Sys),Emotion Appeal -> Personal Related Inquiry -> Personal Story,1,1,0
+System (Sys->Sys->Sys),Credibility Appeal -> Task Related Inquiry -> Foot in the Door,1,1,0
+System (Sys->Sys->Sys),Credibility Appeal -> Source Related Inquiry -> Task Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Foot in the Door -> Self-assertion -> Source Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Foot in the Door -> Self-assertion -> Personal Related Inquiry,1,0,1
+Interaction (Sys->User->Sys),Foot in the Door -> Self Pity -> Task Related Inquiry,1,1,0
+Interaction (Sys->User->Sys),Personal Story -> Information Inquiry -> Emotion Appeal,1,0,1
+System (Sys->Sys->Sys),Greeting -> Greeting -> Personal Story,1,0,1
+Interaction (Sys->User->Sys),Logical Appeal -> Source Derogation -> Credibility Appeal,1,0,1
+Interaction (Sys->User->Sys),Logical Appeal -> Self Pity -> Foot in the Door,1,0,1
+Interaction (Sys->User->Sys),Logical Appeal -> Personal Choice -> Personal Story,1,0,1
+System (Sys->Sys->Sys),Emotion Appeal -> Logical Appeal -> Donation Information,1,1,0
+Interaction (Sys->User->Sys),Personal Related Inquiry -> Self Pity -> Foot in the Door,1,0,1
+Interaction (Sys->User->Sys),Personal Related Inquiry -> Personal Choice -> Emotion Appeal,1,0,1
+System (Sys->Sys->Sys),Emotion Appeal -> Foot in the Door -> Personal Story,1,1,0
+System (Sys->Sys->Sys),Emotion Appeal -> Foot in the Door -> Emotion Appeal,1,0,1
+System (Sys->Sys->Sys),Emotion Appeal -> Foot in the Door -> Donation Information,1,0,1
+Interaction (Sys->User->Sys),Personal Story -> Counter Argument -> Personal Story,1,0,1
+System (Sys->Sys->Sys),Greeting -> Greeting -> Logical Appeal,1,0,1
+System (Sys->Sys->Sys),Foot in the Door -> Personal Story -> Donation Information,1,1,0
+System (Sys->Sys->Sys),Foot in the Door -> Logical Appeal -> Source Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Foot in the Door -> Logical Appeal -> Self Modeling,1,0,1
+System (Sys->Sys->Sys),Foot in the Door -> Logical Appeal -> Credibility Appeal,1,0,1
+System (Sys->Sys->Sys),Greeting -> Emotion Appeal -> Personal Related Inquiry,1,1,0
+System (Sys->Sys->Sys),Greeting -> Logical Appeal -> Foot in the Door,1,0,1
+System (Sys->Sys->Sys),Greeting -> Logical Appeal -> Emotion Appeal,1,0,1
+System (Sys->Sys->Sys),Credibility Appeal -> Transparency and Trust -> Foot in the Door,1,0,1
+System (Sys->Sys->Sys),Emotion Appeal -> Source Related Inquiry -> Foot in the Door,1,0,1
+System (Sys->Sys->Sys),Credibility Appeal -> Donation Information -> Task Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Credibility Appeal -> Donation Information -> Logical Appeal,1,0,1
+System (Sys->Sys->Sys),Credibility Appeal -> Personal Related Inquiry -> Emotion Appeal,1,1,0
+System (Sys->Sys->Sys),Credibility Appeal -> Source Related Inquiry -> Personal Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Credibility Appeal -> Source Related Inquiry -> Credibility Appeal,1,0,1
+System (Sys->Sys->Sys),Donation Information -> Donation Information -> Credibility Appeal,1,0,1
+System (Sys->Sys->Sys),Donation Information -> Credibility Appeal -> Task Related Inquiry,1,0,1
+System (Sys->Sys->Sys),Donation Information -> Credibility Appeal -> Donation Information,1,1,0
+System (Sys->Sys->Sys),Credibility Appeal -> Trust Building -> Personal Story,1,0,1
+System (Sys->Sys->Sys),Credibility Appeal -> Emotion Appeal -> Credibility Appeal,1,0,1

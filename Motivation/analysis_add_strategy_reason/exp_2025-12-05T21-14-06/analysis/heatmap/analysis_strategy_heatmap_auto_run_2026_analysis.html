@@ -1,0 +1,229 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Strategy Selection Entropy</title>
+        <style>
+            body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f6f8; padding: 20px; }
+            .container { max-width: 1100px; margin: 0 auto; }
+            .header { text-align: center; margin-bottom: 30px; }
+            .sample-box {
+                background-color: white; border: 1px solid #e0e0e0; margin-bottom: 25px;
+                border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); padding: 20px;
+            }
+            .meta-info {
+                font-size: 14px; color: #666; margin-bottom: 15px; padding-bottom: 10px;
+                border-bottom: 1px solid #eee; display: flex; justify-content: space-between;
+            }
+            .token {
+                display: inline-block; white-space: pre-wrap; padding: 1px 0;
+                cursor: pointer; border-radius: 2px; transition: 0.1s;
+            }
+            .token:hover { outline: 2px solid #333; z-index: 10; position: relative; }
+            .token-newline { display: block; height: 8px; width: 100%; }
+            
+            #info-box {
+                display: none; position: absolute; background: white; border: 1px solid #ccc;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2); border-radius: 6px; padding: 10px;
+                z-index: 1000; width: 280px; font-size: 13px;
+            }
+            .legend {
+                position: sticky; top: 0; background: rgba(244, 246, 248, 0.95);
+                padding: 10px; text-align: center; z-index: 900; border-bottom: 1px solid #ccc;
+            }
+            .legend span { display: inline-block; width: 100px; height: 10px; margin: 0 5px; }
+        </style>
+    </head>
+    <body>
+    <div id="info-box"></div>
+    <div class="container">
+        <div class="legend">
+            Low Entropy (Certain) 
+            <span style="background: linear-gradient(to right, white, #3366ff);"></span> 
+            <span style="background: linear-gradient(to right, #3366ff, #ff3333);"></span> 
+            High Entropy (Uncertain)
+        </div>
+        <div class="header"><h2>Strategy Selection Entropy</h2></div>
+    
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_115</span>
+                <span><b>Turn:</b> 2</span>
+                <span><b>Strategy:</b> Emotion Appeal</span>
+                <span><b>Avg Entropy:</b> 0.1584</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#7555bd; color:white;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;Em&quot;, &quot;e&quot;: 0.4751, &quot;p&quot;: 0.8176, &quot;c&quot;: [{&quot;t&quot;: &quot;Em&quot;, &quot;p&quot;: 0.8176}, {&quot;t&quot;: &quot;Logical&quot;, &quot;p&quot;: 0.1824}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}]}">Em</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;otion&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot;otion&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}">otion</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Appeal&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Appeal&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Appeal</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_115</span>
+                <span><b>Turn:</b> 3</span>
+                <span><b>Strategy:</b> Credibility Appeal</span>
+                <span><b>Avg Entropy:</b> 0.0000</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;red&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot;red&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}">red</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;ibility&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot;ibility&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}">ibility</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Appeal&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Appeal&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Appeal</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_115</span>
+                <span><b>Turn:</b> 4</span>
+                <span><b>Strategy:</b> Logical Appeal</span>
+                <span><b>Avg Entropy:</b> 0.5031</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#515fe1; color:white;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;Logical&quot;, &quot;e&quot;: 1.0062, &quot;p&quot;: 0.5538, &quot;c&quot;: [{&quot;t&quot;: &quot;Logical&quot;, &quot;p&quot;: 0.5538}, {&quot;t&quot;: &quot;Foot&quot;, &quot;p&quot;: 0.3359}, {&quot;t&quot;: &quot;Source&quot;, &quot;p&quot;: 0.0749}, {&quot;t&quot;: &quot;Don&quot;, &quot;p&quot;: 0.0354}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}]}">Logical</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Appeal&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Appeal&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Appeal</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_115</span>
+                <span><b>Turn:</b> 5</span>
+                <span><b>Strategy:</b> Foot in the Door</span>
+                <span><b>Avg Entropy:</b> 0.0000</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;Foot&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot;Foot&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}">Foot</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; in&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; in&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> in</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; the&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; the&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> the</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Door&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Door&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Door</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_115</span>
+                <span><b>Turn:</b> 6</span>
+                <span><b>Strategy:</b> Self Modeling</span>
+                <span><b>Avg Entropy:</b> 0.1343</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#4262f0; color:white;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;Self&quot;, &quot;e&quot;: 0.2685, &quot;p&quot;: 0.9241, &quot;c&quot;: [{&quot;t&quot;: &quot;Self&quot;, &quot;p&quot;: 0.9241}, {&quot;t&quot;: &quot;Don&quot;, &quot;p&quot;: 0.0759}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}]}">Self</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Modeling&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Modeling&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Modeling</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_115</span>
+                <span><b>Turn:</b> 7</span>
+                <span><b>Strategy:</b> Personal Story</span>
+                <span><b>Avg Entropy:</b> 0.0000</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;Personal&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot;Personal&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}">Personal</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Story&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Story&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Story</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_115</span>
+                <span><b>Turn:</b> 8</span>
+                <span><b>Strategy:</b> Foot in the Door</span>
+                <span><b>Avg Entropy:</b> 0.3133</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#9a4c98; color:white;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;Foot&quot;, &quot;e&quot;: 1.2531, &quot;p&quot;: 0.3908, &quot;c&quot;: [{&quot;t&quot;: &quot;Task&quot;, &quot;p&quot;: 0.3908}, {&quot;t&quot;: &quot;Source&quot;, &quot;p&quot;: 0.3043}, {&quot;t&quot;: &quot;Foot&quot;, &quot;p&quot;: 0.237}, {&quot;t&quot;: &quot;Personal&quot;, &quot;p&quot;: 0.0679}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}]}">Foot</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; in&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; in&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> in</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; the&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; the&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> the</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Door&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Door&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Door</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_115</span>
+                <span><b>Turn:</b> 9</span>
+                <span><b>Strategy:</b> Task Related Inquiry</span>
+                <span><b>Avg Entropy:</b> 0.4113</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#7555bd; color:white;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;Task&quot;, &quot;e&quot;: 1.234, &quot;p&quot;: 0.5053, &quot;c&quot;: [{&quot;t&quot;: &quot;Don&quot;, &quot;p&quot;: 0.5053}, {&quot;t&quot;: &quot;Foot&quot;, &quot;p&quot;: 0.1859}, {&quot;t&quot;: &quot;Source&quot;, &quot;p&quot;: 0.164}, {&quot;t&quot;: &quot;Task&quot;, &quot;p&quot;: 0.1448}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}]}">Task</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Related&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Related&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Related</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Inquiry&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Inquiry&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Inquiry</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_115</span>
+                <span><b>Turn:</b> 10</span>
+                <span><b>Strategy:</b> Logical Appeal</span>
+                <span><b>Avg Entropy:</b> 0.2652</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#515fe1; color:white;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;Logical&quot;, &quot;e&quot;: 0.5303, &quot;p&quot;: 0.7773, &quot;c&quot;: [{&quot;t&quot;: &quot;Logical&quot;, &quot;p&quot;: 0.7773}, {&quot;t&quot;: &quot;Don&quot;, &quot;p&quot;: 0.2227}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}]}">Logical</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Appeal&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Appeal&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Appeal</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_72</span>
+                <span><b>Turn:</b> 2</span>
+                <span><b>Strategy:</b> Emotion Appeal</span>
+                <span><b>Avg Entropy:</b> 0.0531</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#7d9eff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;Em&quot;, &quot;e&quot;: 0.1594, &quot;p&quot;: 0.9627, &quot;c&quot;: [{&quot;t&quot;: &quot;Em&quot;, &quot;p&quot;: 0.9627}, {&quot;t&quot;: &quot;Logical&quot;, &quot;p&quot;: 0.0373}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}]}">Em</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;otion&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot;otion&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}">otion</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Appeal&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Appeal&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Appeal</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_72</span>
+                <span><b>Turn:</b> 3</span>
+                <span><b>Strategy:</b> Credibility Appeal</span>
+                <span><b>Avg Entropy:</b> 0.0000</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;red&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot;red&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}">red</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;ibility&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot;ibility&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}">ibility</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Appeal&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Appeal&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Appeal</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_72</span>
+                <span><b>Turn:</b> 4</span>
+                <span><b>Strategy:</b> Personal Story</span>
+                <span><b>Avg Entropy:</b> 0.0000</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;Personal&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot;Personal&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}">Personal</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Story&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Story&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Story</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_72</span>
+                <span><b>Turn:</b> 5</span>
+                <span><b>Strategy:</b> Foot in the Door</span>
+                <span><b>Avg Entropy:</b> 0.0000</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;Foot&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot;Foot&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}">Foot</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; in&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; in&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> in</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; the&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; the&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> the</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Door&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Door&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Door</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_72</span>
+                <span><b>Turn:</b> 6</span>
+                <span><b>Strategy:</b> Self Modeling</span>
+                <span><b>Avg Entropy:</b> 0.5357</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#515fe1; color:white;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;Self&quot;, &quot;e&quot;: 1.0715, &quot;p&quot;: 0.486, &quot;c&quot;: [{&quot;t&quot;: &quot;Self&quot;, &quot;p&quot;: 0.486}, {&quot;t&quot;: &quot;Source&quot;, &quot;p&quot;: 0.3785}, {&quot;t&quot;: &quot;Task&quot;, &quot;p&quot;: 0.0957}, {&quot;t&quot;: &quot;Personal&quot;, &quot;p&quot;: 0.0399}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}]}">Self</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Modeling&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Modeling&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Modeling</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_72</span>
+                <span><b>Turn:</b> 7</span>
+                <span><b>Strategy:</b> Source Related Inquiry</span>
+                <span><b>Avg Entropy:</b> 0.3055</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#7555bd; color:white;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;Source&quot;, &quot;e&quot;: 0.9164, &quot;p&quot;: 0.46, &quot;c&quot;: [{&quot;t&quot;: &quot;Task&quot;, &quot;p&quot;: 0.46}, {&quot;t&quot;: &quot;Source&quot;, &quot;p&quot;: 0.46}, {&quot;t&quot;: &quot;Don&quot;, &quot;p&quot;: 0.0799}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}]}">Source</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Related&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Related&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Related</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Inquiry&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Inquiry&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Inquiry</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_72</span>
+                <span><b>Turn:</b> 8</span>
+                <span><b>Strategy:</b> Donation Information</span>
+                <span><b>Avg Entropy:</b> 0.0000</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;Don&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot;Don&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}">Don</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;ation&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot;ation&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}">ation</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Information&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Information&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Information</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_72</span>
+                <span><b>Turn:</b> 9</span>
+                <span><b>Strategy:</b> Task Related Inquiry</span>
+                <span><b>Avg Entropy:</b> 0.0824</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#3568ff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;Task&quot;, &quot;e&quot;: 0.2472, &quot;p&quot;: 0.9325, &quot;c&quot;: [{&quot;t&quot;: &quot;Task&quot;, &quot;p&quot;: 0.9325}, {&quot;t&quot;: &quot;Foot&quot;, &quot;p&quot;: 0.0675}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}]}">Task</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Related&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Related&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Related</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Inquiry&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Inquiry&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Inquiry</span></div></div>
+        <div class="sample-box">
+            <div class="meta-info">
+                <span><b>User:</b> persona_72</span>
+                <span><b>Turn:</b> 10</span>
+                <span><b>Strategy:</b> Personal Related Inquiry</span>
+                <span><b>Avg Entropy:</b> 0.0000</span>
+            </div>
+            <div class="content">
+        <span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot;Personal&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot;Personal&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}">Personal</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Related&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Related&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Related</span><span class="token" style="background:#ffffff; color:black;" onclick="show(this, event)" data-info="{&quot;t&quot;: &quot; Inquiry&quot;, &quot;e&quot;: 0.0, &quot;p&quot;: 1.0, &quot;c&quot;: [{&quot;t&quot;: &quot; Inquiry&quot;, &quot;p&quot;: 1.0}, {&quot;t&quot;: &quot;#&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;!&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;$&quot;, &quot;p&quot;: 0.0}, {&quot;t&quot;: &quot;\&quot;&quot;, &quot;p&quot;: 0.0}]}"> Inquiry</span></div></div>
+    </div>
+    <script>
+        const box = document.getElementById('info-box');
+        function show(el, e) {
+            e.stopPropagation();
+            const d = JSON.parse(el.getAttribute('data-info'));
+            let h = `<b>'${esc(d.t)}'</b><br>Ent: ${d.e} | Prob: ${d.p}<hr style='margin:5px 0'>`;
+            d.c.forEach((c,i) => {
+                h += `<div style='display:flex;justify-content:space-between;font-size:12px;font-family:monospace'>
+                      <span>${i+1}. ${esc(c.t)}</span><span>${c.p.toFixed(3)}</span></div>`;
+            });
+            box.innerHTML = h; box.style.display='block';
+            box.style.left=(e.pageX+10)+'px'; box.style.top=(e.pageY+10)+'px';
+        }
+        function esc(t){return t?t.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"):""}
+        document.onclick = () => box.style.display='none';
+    </script>
+    </body></html>
+    

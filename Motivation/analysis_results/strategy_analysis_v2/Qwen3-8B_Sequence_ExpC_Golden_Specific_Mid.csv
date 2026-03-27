@@ -1,0 +1,16 @@
+Triplet,Prob_Success,Prob_Fail,Golden_Diff
+Donation Information -> Hesitance -> Foot in the Door,0.049019607843137254,0.015050167224080268,0.03396944061905699
+Credibility Appeal -> Hesitance -> Personal Related Inquiry,0.016339869281045753,0.0001,0.016239869281045753
+Credibility Appeal -> Information Inquiry -> Donation Information,0.026143790849673203,0.011705685618729096,0.014438105230944107
+Donation Information -> Information Inquiry -> Donation Information,0.00980392156862745,0.0001,0.009703921568627451
+Foot in the Door -> Hesitance -> Credibility Appeal,0.00980392156862745,0.0016722408026755853,0.008131680765951865
+Foot in the Door -> Self Pity -> Foot in the Door,0.013071895424836602,0.005016722408026756,0.008055173016809846
+Personal Story -> Hesitance -> Self Modeling,0.013071895424836602,0.005016722408026756,0.008055173016809846
+Personal Story -> Information Inquiry -> Credibility Appeal,0.026143790849673203,0.01839464882943144,0.007749142020241764
+Foot in the Door -> Hesitance -> Foot in the Door,0.07516339869281045,0.06856187290969899,0.0066015257831114615
+Personal Related Inquiry -> Personal Choice -> Personal Story,0.006535947712418301,0.0001,0.006435947712418301
+Emotion Appeal -> Personal Choice -> Personal Story,0.006535947712418301,0.0001,0.006435947712418301
+Personal Related Inquiry -> Information Inquiry -> Personal Story,0.006535947712418301,0.0001,0.006435947712418301
+Credibility Appeal -> Hesitance -> Source Related Inquiry,0.006535947712418301,0.0001,0.006435947712418301
+Personal Story -> Personal Choice -> Emotion Appeal,0.006535947712418301,0.0001,0.006435947712418301
+Emotion Appeal -> Hesitance -> Foot in the Door,0.013071895424836602,0.006688963210702341,0.006382932214134261

@@ -20,6 +20,8 @@ processed_data/
 *.pb
 *.onnx
 *.tflite
+*.pyc
+*.png
 checkpoints/
 saved_models/
 
