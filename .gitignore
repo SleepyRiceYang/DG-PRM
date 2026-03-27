@@ -25,6 +25,7 @@ models/
 saved_models/
 
 # TensorBoard logs
+# 日志记录
 runs/
 
 # Jupyter Notebook checkpoints
