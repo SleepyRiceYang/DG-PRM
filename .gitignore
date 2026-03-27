@@ -1,0 +1,87 @@
+# Deep Learning Research Project .gitignore
+
+# Results and outputs
+results/
+outputs/
+experiments/
+logs/
+
+# Data directories
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Model files and checkpoints
+*.pth
+*.pt
+*.h5
+*.pkl
+*.pb
+*.onnx
+*.tflite
+checkpoints/
+models/
+saved_models/
+
+# TensorBoard logs
+runs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Sensitive information
+.env
+.env.local
+*.key
+*.secret
+
+# Large files (optional)
+*.zip
+*.tar.gz
+*.rar
