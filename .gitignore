@@ -5,6 +5,7 @@ results/
 outputs/
 experiments/
 logs/
+TEMP/
 
 # Data directories
 data/
