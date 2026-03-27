@@ -21,9 +21,10 @@ processed_data/
 *.onnx
 *.tflite
 *.pyc
-*.png
 checkpoints/
 saved_models/
+
+# 实验文件
 
 # TensorBoard logs
 # 日志记录
