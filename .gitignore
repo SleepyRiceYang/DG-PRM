@@ -21,7 +21,6 @@ processed_data/
 *.onnx
 *.tflite
 checkpoints/
-models/
 saved_models/
 
 # TensorBoard logs
